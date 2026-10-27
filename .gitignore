@@ -337,20 +337,6 @@ TSWLatexianTemp*
 __pycache__/
 *.pyc
 
-# LaTeX build files
-*.aux
-*.log
-*.toc
-*.out
-*.idx
-*.ilg
-*.ind
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.bbl
-*.blg
-
 # build output: keep only the finished book
 out/*
 !out/recipes.pdf
