@@ -744,7 +744,7 @@
   "order": 8
  },
  {
-  "id": "svensk-polseret",
+  "id": "svensk-poelseret",
   "title": "Svensk pølseret",
   "kind": "food",
   "category": "Main dishes",
@@ -753,7 +753,7 @@
   "prep": 20,
   "cook": null,
   "temp": "",
-  "image": "images/svensk-polseret.jpg",
+  "image": "images/svensk-poelseret.jpg",
   "ingredients": [
    {
     "name": null,
