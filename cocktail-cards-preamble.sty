@@ -1,0 +1,20 @@
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{gensymb}
+\usepackage{ragged2e}
+
+\usepackage{tikz}
+\newcommand{\sweettartguage}[1]{
+%    \noident
+    Sweet
+    \begin{tikzpicture}
+        \draw [green] (-1,0) -- (-0.5,0);
+        \draw [lime] (-0.5,0) -- (0,0);
+        \draw [orange] (0,0) -- (0.5,0);
+        \draw [red] (0.5,0) -- (1,0);
+        \filldraw [gray] (#1,0) circle (2pt);
+    \end{tikzpicture}
+    Tart
+}
+

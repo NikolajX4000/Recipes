@@ -1,0 +1,27 @@
+\documentclass[a4paper,12pt]{article}
+
+\input{style}
+\input{indices}
+
+\usepackage{cocktail-cards-preamble}
+
+\begin{document}
+    \setcounter{page}{0}
+    \tableofcontents
+    \newpage
+
+    \clearpage
+    \input{./recipes/recipes}
+    \clearpage
+    \input{./cocktail-cards/drinks}
+    \clearpage
+    \input{./nemlig/maaltidskasser}
+    \clearpage
+
+    \printindex
+    \printindex[ingredient]
+    \printindex[drinks]
+    \printindex[glass]
+    \printindex[flavor-profile]
+    \printindex[nemlig]
+\end{document}

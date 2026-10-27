@@ -1,0 +1,3065 @@
+[
+ {
+  "id": "cookie-brownie",
+  "title": "Cookie brownie",
+  "kind": "food",
+  "category": "Desserts",
+  "type": "Kage",
+  "servings": 12,
+  "prep": 50,
+  "cook": 20,
+  "temp": "190",
+  "image": "images/cookie-brownie.jpg",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "2 pk. Oreo"
+    ]
+   },
+   {
+    "name": "Cookiedej",
+    "items": [
+     "1 tsk. Bagepulver",
+     "150g Brun Farin",
+     "150g Mørk Chokolade",
+     "250g Hvedemel",
+     "0,5 tsk. Natron",
+     "1 knivspids Salt",
+     "150g Smør",
+     "1 Æg",
+     "1 Æggeblomme"
+    ]
+   },
+   {
+    "name": "Browniedej",
+    "items": [
+     "0,5 tsk. Bagepulver",
+     "250g Mørk Chokolade",
+     "50g Kakaopulver",
+     "80g Hvedemel",
+     "1 drys Salt",
+     "120g Smør",
+     "400g Sukker",
+     "5 Æg"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Bagepulver",
+   "Brun Farin",
+   "Chokolade",
+   "Kakaopulver",
+   "Mel",
+   "Natron",
+   "Oreo",
+   "Salt",
+   "Smør",
+   "Sukker",
+   "Æg",
+   "Æggeblomme"
+  ],
+  "steps": [
+   {
+    "text": "Mix cookiedejen",
+    "subs": [
+     {
+      "label": "Cookiedej",
+      "text": "Stil smørret ud på køkkenbordet i god tid, så den er blød og stuetempereret."
+     },
+     {
+      "label": null,
+      "text": "Pisk smør og brun farin til en cremet lys masse. Det tager ca. 3–5 minutter."
+     },
+     {
+      "label": null,
+      "text": "Pisk æg og æggeblomme i dejen."
+     },
+     {
+      "label": null,
+      "text": "Bland mel, bagepulver, natron og salt. Sigt blandingen i skålen og rør cookiedejen ensartet."
+     },
+     {
+      "label": null,
+      "text": "Hak chokoladen og vend i dejen."
+     }
+    ]
+   },
+   {
+    "text": "Mix browniedejen",
+    "subs": [
+     {
+      "label": "Browniedej",
+      "text": "Smelt chokolade og smør i en gryde indtil det er blevet en ensartet masse. Lad det køle helt af efterfølgende."
+     },
+     {
+      "label": null,
+      "text": "Pisk æg og sukker sammen til en luftig masse."
+     },
+     {
+      "label": null,
+      "text": "Vend chokoladeblandingen forsigtigt sammen med æggemassen."
+     },
+     {
+      "label": null,
+      "text": "Tilsæt resten af ingredienserne og vend det forsigtigt sammen, sådan så al luften ikke slås ud af æggemassen. Si gerne de tørre ingredienser ned i, for at undgå klumper."
+     }
+    ]
+   },
+   {
+    "text": "Saml kagen",
+    "subs": [
+     {
+      "label": "Samling",
+      "text": "Fordel cookiedejen i bunden af en bageform på ca. 25×30 beklædt med bagepapir."
+     },
+     {
+      "label": null,
+      "text": "Placer Oreos ovenpå cookiedejen."
+     },
+     {
+      "label": null,
+      "text": "Hæld browniedejen udover til sidst, så alle Oreosne er dækket."
+     },
+     {
+      "label": null,
+      "text": "Bag kagen ved 190 grader alm. ovn i ca. 20–25 minutter."
+     }
+    ]
+   }
+  ],
+  "notes": "",
+  "section": "Recipes",
+  "group": "Desserts",
+  "lang": "da",
+  "order": 11
+ },
+ {
+  "id": "jordbaersmoothie",
+  "title": "Jordbærsmoothie",
+  "kind": "food",
+  "category": "Drinks",
+  "type": "Smoothie",
+  "servings": 1,
+  "prep": 5,
+  "cook": null,
+  "temp": "",
+  "image": "images/jordbaersmoothie.png",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "1 Banan, modne",
+     "0,25dl Piskefløde, (kan undlades)",
+     "50g Jordbær, frosne",
+     "1dl Kærnemælk, eller yoghurt",
+     "1dl Mandelmælk",
+     "0,5 tsk. Vaniljepulver"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Banan",
+   "Fløde",
+   "Jordbær",
+   "Mælk",
+   "Vaniljepulver"
+  ],
+  "steps": [
+   {
+    "text": "Det hele kommes i en blender.",
+    "subs": []
+   },
+   {
+    "text": "Blend til jordbærsmoothien er cremet og lækker.",
+    "subs": []
+   }
+  ],
+  "notes": "",
+  "section": "Recipes",
+  "group": "Drinks",
+  "lang": "da",
+  "order": 16
+ },
+ {
+  "id": "kyllingesalat",
+  "title": "Kyllingesalat med karry",
+  "kind": "food",
+  "category": "Lunch",
+  "type": "Pålægssalat",
+  "servings": 4,
+  "prep": 15,
+  "cook": null,
+  "temp": "",
+  "image": "images/kyllingesalat.jpg",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "400g Kylling",
+     "1,5dl Creme Fraiche 18%",
+     "0,5dl Mayonnaise",
+     "2 Forårsløg",
+     "1 tsk. Dijonsennep",
+     "1 tsk. Karry",
+     "0,5 tsk. Løgpulver",
+     "0,25 tsk. Sukker",
+     "Salt",
+     "Peber"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Creme Fraiche",
+   "Forårsløg",
+   "Karry",
+   "Kylling",
+   "Løgpulver",
+   "Mayonnaise",
+   "Peber",
+   "Salt",
+   "Sennep",
+   "Sukker"
+  ],
+  "steps": [
+   {
+    "text": "Tilbered kyllingen på en pande.",
+    "subs": []
+   },
+   {
+    "text": "Rør creme fraiche, mayonnaise, dijon, karry og løgpulver sammen, og smag til med salt, peber og sukker.",
+    "subs": []
+   },
+   {
+    "text": "Vend kylling og forårsløg i dressingen og opbevar kyllingesalaten på køl til den skal serveres.",
+    "subs": []
+   }
+  ],
+  "notes": "<b>Tip!</b> Man kan med fordel bruge lår kød for mere saftig kylling.",
+  "section": "Recipes",
+  "group": "Lunch",
+  "lang": "da",
+  "order": 18
+ },
+ {
+  "id": "wienersalat",
+  "title": "Wienersalat",
+  "kind": "food",
+  "category": "Lunch",
+  "type": "Pålægssalat",
+  "servings": 4,
+  "prep": 15,
+  "cook": null,
+  "temp": "",
+  "image": "images/wienersalat.jpg",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "800g Pølser",
+     "200g Mayonnaise",
+     "1 spsk. Sennep",
+     "Salt",
+     "Peber",
+     "Frisk Purløg"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Mayonnaise",
+   "Peber",
+   "Purløg",
+   "Pølser",
+   "Salt",
+   "Sennep"
+  ],
+  "steps": [
+   {
+    "text": "Mayonnaise røres med sennep, salt og peber og smages til.",
+    "subs": []
+   },
+   {
+    "text": "Kogte røde pølser eller ufarvede alt efter smag. Skæres i tynde skiver.",
+    "subs": []
+   },
+   {
+    "text": "Pølserne vendes i dressingen og Wienersalaten er klar til servering, pyntes gerne med friskklippet purløg.",
+    "subs": []
+   }
+  ],
+  "notes": "",
+  "section": "Recipes",
+  "group": "Lunch",
+  "lang": "da",
+  "order": 19
+ },
+ {
+  "id": "chicken-parmesan",
+  "title": "Chicken parmesan",
+  "kind": "food",
+  "category": "Main dishes",
+  "type": "Kylling",
+  "servings": 4,
+  "prep": 30,
+  "cook": null,
+  "temp": "",
+  "image": "images/chicken-parmesan.jpg",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "1 tsk. Basilikum",
+     "Frisk Basilikum",
+     "0,5 tsk. Hvidløgspulver",
+     "600g Kyllingebryst",
+     "0,5 tsk. Løgpulver",
+     "125g Frisk Mozzarella",
+     "1 tsk. Oregano",
+     "Parmesan, revet",
+     "80g Rasp",
+     "Smør",
+     "400g Tomatsauce",
+     "2 Æg"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Basilikum",
+   "Hvidløgspulver",
+   "Kyllingebryst",
+   "Løgpulver",
+   "Mozzarella",
+   "Oregano",
+   "Parmesan",
+   "Rasp",
+   "Smør",
+   "Tomatsauce",
+   "Æg"
+  ],
+  "steps": [
+   {
+    "text": "Opvarm ovnen til 250 grader.",
+    "subs": []
+   },
+   {
+    "text": "Bank kyllingefileterne flade så de er ca. 1cm tykke og halver dem på det lange led.",
+    "subs": []
+   },
+   {
+    "text": "Pisk ægget i en dyb tallerken.",
+    "subs": []
+   },
+   {
+    "text": "Bland raspen sammen med krydderierne.",
+    "subs": []
+   },
+   {
+    "text": "Vend kyllingefileterne i æg først og derefter i rasp.",
+    "subs": []
+   },
+   {
+    "text": "Varm smør op på en pande og steg kyllingefileterne på begge sider til de er gennemstegt.",
+    "subs": []
+   },
+   {
+    "text": "Fordel tomatsaucen i et ovnfast fad og læg kyllingefileterne ovenpå.",
+    "subs": []
+   },
+   {
+    "text": "Drys med revet parmesan og bræk til sidst den friske mozzarella i stykker og fordel ovenpå.",
+    "subs": []
+   },
+   {
+    "text": "Sæt fadet i ovnen og bag i 5–10 minutter, til osten er gylden og smeltet.",
+    "subs": []
+   },
+   {
+    "text": "Server med frisk basilikum.",
+    "subs": []
+   }
+  ],
+  "notes": "",
+  "section": "Recipes",
+  "group": "Main dishes",
+  "lang": "da",
+  "order": 4
+ },
+ {
+  "id": "karaage",
+  "title": "Karaage: Japansk fried chicken",
+  "kind": "food",
+  "category": "Main dishes",
+  "type": "Kylling",
+  "servings": 4,
+  "prep": 25,
+  "cook": null,
+  "temp": "",
+  "image": "images/karaage.jpg",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "Chilisauce",
+     "2 spsk. Riseddike (el. almindelig eddike)",
+     "2 tsk. Hvidløg, revet",
+     "2 tsk. Ingefær, revet",
+     "400g Kyllingebryst",
+     "4 spsk. Majsstivelse",
+     "8 spsk. Hvede-/Kartoffel-mel",
+     "4dl Friture-/Solsikke-olie",
+     "Ris",
+     "4 spsk. Soyasauce",
+     "Sukker"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Chilisauce",
+   "Eddike",
+   "Hvidløg",
+   "Ingefær",
+   "Kyllingebryst",
+   "Majsstivelse",
+   "Mel",
+   "Olie",
+   "Ris",
+   "Soyasauce",
+   "Sukker"
+  ],
+  "steps": [
+   {
+    "text": "Skær kyllingen i små mundrette bidder og hæld i en skål.",
+    "subs": []
+   },
+   {
+    "text": "Tilføj soyasauce, eddike, hvidløg, sukker og ingefær og lad det marinere i 10–15 minutter.",
+    "subs": []
+   },
+   {
+    "text": "Varm olien op til ca. 160–170 grader i en lille gryde.",
+    "subs": []
+   },
+   {
+    "text": "Bland mel i kyllingemarinaden.",
+    "subs": []
+   },
+   {
+    "text": "Vend hvert stykke kylling i majsstivelse, så det dækker.",
+    "subs": []
+   },
+   {
+    "text": "Friter kyllingen 5–6 stykker af gangen, til de er gyldne og sprøde. Lad dem afdryppe på køkkenrulle.",
+    "subs": []
+   },
+   {
+    "text": "Server med ris og chilisauce.",
+    "subs": []
+   }
+  ],
+  "notes": "",
+  "section": "Recipes",
+  "group": "Main dishes",
+  "lang": "da",
+  "order": 5
+ },
+ {
+  "id": "mexicansk-kylling-i-sovs",
+  "title": "Mexicansk kylling i sovs",
+  "kind": "food",
+  "category": "Main dishes",
+  "type": "Kylling",
+  "servings": 4,
+  "prep": 30,
+  "cook": 60,
+  "temp": "200",
+  "image": "images/mexicansk-kylling-i-sovs.jpg",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "4 spsk. Brun Farin",
+     "0,25 tsk. Chili",
+     "0,5dl Eddike",
+     "3 spsk. Engelsk Sauce",
+     "1dl Ketchup",
+     "600g Kyllingebryst",
+     "1,5 tsk. Paprika",
+     "0,25 tsk. Peber",
+     "Ris",
+     "1,5 tsk. Sennep",
+     "2dl Tomatsauce",
+     "1dl Vand"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Brun Farin",
+   "Chili",
+   "Eddike",
+   "Engelsk Sauce",
+   "Ketchup",
+   "Kyllingebryst",
+   "Paprika",
+   "Peber",
+   "Ris",
+   "Sennep",
+   "Tomatsauce",
+   "Vand"
+  ],
+  "steps": [
+   {
+    "text": "Kom alle ingredienserne, på nær kyllingen, i en gryde og kog i 15 minutter.",
+    "subs": []
+   },
+   {
+    "text": "Kom kyllingen i et ildfast fad og hæld sovsen over.",
+    "subs": []
+   },
+   {
+    "text": "Sæt fadet i ovnen i cirka 1 time ved 200 grader.",
+    "subs": []
+   },
+   {
+    "text": "Serveres f.eks. med ris.",
+    "subs": []
+   }
+  ],
+  "notes": "",
+  "section": "Recipes",
+  "group": "Main dishes",
+  "lang": "da",
+  "order": 6
+ },
+ {
+  "id": "one-pot-pasta-med-tomater-og-chorizo",
+  "title": "One-pot pasta med tomater og chorizo",
+  "kind": "food",
+  "category": "Main dishes",
+  "type": "Gris",
+  "servings": 4,
+  "prep": 30,
+  "cook": null,
+  "temp": "",
+  "image": "images/one-pot-pasta-med-tomater-og-chorizo.jpg",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "Frisk Basilikum",
+     "1 terning Grøntsagsbouillon",
+     "200g Cherrytomater",
+     "0,5 tsk. Chiliflager",
+     "100g Chorizo",
+     "1 dåse Hakkede Tomater",
+     "2 fed Hvidløg",
+     "1 Løg",
+     "1 spsk. Olivenolie",
+     "Parmesan",
+     "400g Pasta",
+     "Peber",
+     "Salt",
+     "1 tsk. Sukker",
+     "7dl Vand"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Basilikum",
+   "Bouillon",
+   "Cherrytomater",
+   "Chiliflager",
+   "Chorizo",
+   "Hakkede Tomater",
+   "Hvidløg",
+   "Løg",
+   "Olie",
+   "Parmesan",
+   "Pasta",
+   "Peber",
+   "Salt",
+   "Sukker",
+   "Vand"
+  ],
+  "steps": [
+   {
+    "text": "Hak løg og hvidløg og skær chorizoen i skiver.",
+    "subs": []
+   },
+   {
+    "text": "Varm olien i en stor gryde og sauter løg, hvidløg og chorizo til løgene bliver klare.",
+    "subs": []
+   },
+   {
+    "text": "Halver tomaterne og kom dem i gryden sammen med hakkede tomater, chiliflager, sukker, salt, peber, pasta, vand og bouillonterning.",
+    "subs": []
+   },
+   {
+    "text": "Bring gryden i kog og læg låg på.",
+    "subs": []
+   },
+   {
+    "text": "Lad gryden koge i 10–12 minutter eller indtil pastaen er kogt al dente. Rør rundt undervejs.",
+    "subs": []
+   },
+   {
+    "text": "Server med revet parmesan og frisk basilikum.",
+    "subs": []
+   }
+  ],
+  "notes": "",
+  "section": "Recipes",
+  "group": "Main dishes",
+  "lang": "da",
+  "order": 7
+ },
+ {
+  "id": "spaghetti-carbonara",
+  "title": "Spaghetti alla Carbonara",
+  "kind": "food",
+  "category": "Main dishes",
+  "type": "Gris",
+  "servings": 4,
+  "prep": 35,
+  "cook": null,
+  "temp": "",
+  "image": "images/spaghetti-carbonara.jpg",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "Friskkværnet Sort Peber"
+    ]
+   },
+   {
+    "name": "Pasta",
+    "items": [
+     "400g Spaghetti",
+     "Salt (til pastavand)"
+    ]
+   },
+   {
+    "name": "Guanciale",
+    "items": [
+     "200g Guanciale (eller pancetta hvis guanciale ikke er tilgængelig)"
+    ]
+   },
+   {
+    "name": "Sauce",
+    "items": [
+     "200g Pecorino Romano Ost, revet",
+     "4 Store Æg"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Guanciale",
+   "Peber",
+   "Pecorino",
+   "Salt",
+   "Spaghetti",
+   "Æg"
+  ],
+  "steps": [
+   {
+    "text": "Tilbered pastaen",
+    "subs": [
+     {
+      "label": "Pasta",
+      "text": "Bring en stor gryde med saltet vand i kog."
+     },
+     {
+      "label": null,
+      "text": "Tilsæt spaghetti og kog efter pakkens anvisninger, indtil de er al dente."
+     },
+     {
+      "label": null,
+      "text": "Når pastaen er kogt, gem cirka en kop af pastavandet og dræn resten."
+     }
+    ]
+   },
+   {
+    "text": "Steg guancialen",
+    "subs": [
+     {
+      "label": "Guanciale",
+      "text": "Skær guanciale i små tern eller strimler."
+     },
+     {
+      "label": null,
+      "text": "Mens pastaen koger, varm en stor stegepande over middel varme."
+     },
+     {
+      "label": null,
+      "text": "Tilsæt guanciale og steg, indtil det bliver sprødt og gyldent."
+     },
+     {
+      "label": null,
+      "text": "Fjern fra varmen, men behold fedtet i panden."
+     }
+    ]
+   },
+   {
+    "text": "Lav saucen",
+    "subs": [
+     {
+      "label": "Sauce",
+      "text": "Riv Pecorino Romano osten."
+     },
+     {
+      "label": null,
+      "text": "Separer æggene, og brug kun æggeblommerne (eller brug hele æg for en mere cremet konsistens)."
+     },
+     {
+      "label": null,
+      "text": "I en skål, pisk æggeblommerne og bland med den revne Pecorino Romano ost og en generøs mængde friskkværnet sort peber. Bland godt for at skabe en tyk pasta."
+     }
+    ]
+   },
+   {
+    "text": "Saml retten",
+    "subs": [
+     {
+      "label": "Samling",
+      "text": "Tilsæt den varme pasta til stegepanden med guanciale og bland godt for at belægge pastaen med fedtet."
+     },
+     {
+      "label": null,
+      "text": "Fjern stegepanden fra varmen og tilsæt hurtigt ægge- og osteblandingen, mens du kaster energisk for at kombinere. Den resterende varme fra pastaen vil forsigtigt tilberede æggene og skabe en cremet sauce."
+     },
+     {
+      "label": null,
+      "text": "Tilsæt lidt af det gemte pastavand efter behov for at opnå den ønskede konsistens."
+     },
+     {
+      "label": null,
+      "text": "Server straks, med ekstra Pecorino Romano og sort peber på toppen, hvis det ønskes."
+     }
+    ]
+   }
+  ],
+  "notes": "",
+  "section": "Recipes",
+  "group": "Main dishes",
+  "lang": "da",
+  "order": 8
+ },
+ {
+  "id": "svensk-polseret",
+  "title": "Svensk pølseret",
+  "kind": "food",
+  "category": "Main dishes",
+  "type": "Gris",
+  "servings": 4,
+  "prep": 20,
+  "cook": null,
+  "temp": "",
+  "image": "images/svensk-polseret.jpg",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "1dl Fløde",
+     "800g Kogte Kartofler",
+     "1 Løg",
+     "2dl Mælk",
+     "3 tsk. Paprika",
+     "Peber",
+     "Persille",
+     "Purløg",
+     "500g Pølser",
+     "Salt",
+     "Smør",
+     "3 spsk. Tomatpuré"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Fløde",
+   "Kartofler",
+   "Løg",
+   "Mælk",
+   "Paprika",
+   "Peber",
+   "Persille",
+   "Purløg",
+   "Pølser",
+   "Salt",
+   "Smør",
+   "Tomatpuré"
+  ],
+  "steps": [
+   {
+    "text": "Pil og hak løget fint.",
+    "subs": []
+   },
+   {
+    "text": "Skær de kogte kartofler ud i grove, mundrette stykker.",
+    "subs": []
+   },
+   {
+    "text": "Skær pølserne i skiver på ca. 1cm.",
+    "subs": []
+   },
+   {
+    "text": "Varm en gryde op ved middel varme med lidt smør eller olie og steg løgene klare heri.",
+    "subs": []
+   },
+   {
+    "text": "Kom pølser og paprika i gryden og svits til pølserne har fået stegeskorpe. Tilsæt herefter tomatpuré, kartofler, mælk og fløde.",
+    "subs": []
+   },
+   {
+    "text": "Lad retten simre ved lavt blus til kartoflerne begynder at koge let ud — ca. 10 minutter.",
+    "subs": []
+   },
+   {
+    "text": "Smag til med salt og peber.",
+    "subs": []
+   },
+   {
+    "text": "Server med frisk hakket purløg eller persille.",
+    "subs": []
+   }
+  ],
+  "notes": "",
+  "section": "Recipes",
+  "group": "Main dishes",
+  "lang": "da",
+  "order": 9
+ },
+ {
+  "id": "broccolisalat",
+  "title": "Broccolisalat",
+  "kind": "food",
+  "category": "Sides",
+  "type": "Salat",
+  "servings": 4,
+  "prep": 60,
+  "cook": null,
+  "temp": "",
+  "image": "images/broccolisalat.jpg",
+  "ingredients": [
+   {
+    "name": "Dressing",
+    "items": [
+     "2,5dl Creme Fraiche",
+     "2 tsk. Rødvinseddike",
+     "1,5 spsk. Sukker"
+    ]
+   },
+   {
+    "name": "Salat",
+    "items": [
+     "300g Bacon",
+     "800g Broccoli",
+     "1,5dl Rosiner",
+     "1 Rødløg",
+     "1,5dl Solsikkekerner"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Bacon",
+   "Broccoli",
+   "Creme Fraiche",
+   "Eddike",
+   "Rosiner",
+   "Rødløg",
+   "Solsikkekerner",
+   "Sukker"
+  ],
+  "steps": [
+   {
+    "text": "Rør dressingen",
+    "subs": [
+     {
+      "label": "Dressing",
+      "text": "Rør creme fraiche med rødvinseddike og sukker. Lad dressingen stå koldt en times tid."
+     }
+    ]
+   },
+   {
+    "text": "Bland salaten",
+    "subs": [
+     {
+      "label": "Salat",
+      "text": "Rist baconen sprød og lad den dryppe af på et stykke køkkenrulle eller lignende."
+     },
+     {
+      "label": null,
+      "text": "Skyl og bræk broccolien ud i små buketter."
+     },
+     {
+      "label": null,
+      "text": "Pil og hak rødløg i små tern."
+     },
+     {
+      "label": null,
+      "text": "Bland broccolibuketter, solsikkekerner, rosiner, rødløg og halvdelen af baconen i en skål."
+     },
+     {
+      "label": null,
+      "text": "Hæld dressingen over og vend rundt."
+     },
+     {
+      "label": null,
+      "text": "Pynt med resten af baconen og server."
+     }
+    ]
+   }
+  ],
+  "notes": "",
+  "section": "Recipes",
+  "group": "Sides",
+  "lang": "da",
+  "order": 13
+ },
+ {
+  "id": "fladbroed-med-ost",
+  "title": "Fladbrød med ost",
+  "kind": "food",
+  "category": "Sides",
+  "type": "Fladbrød",
+  "servings": 4,
+  "prep": 15,
+  "cook": 15,
+  "temp": "Middel",
+  "image": "images/fladbrod-med-ost.jpg",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "2dl Varmt Vand",
+     "1 tsk. Salt",
+     "300g Mel",
+     "100g Ost (Gouda)",
+     "100g Smør",
+     "Sesamfrø"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Mel",
+   "Ost",
+   "Salt",
+   "Sesamfrø",
+   "Smør",
+   "Vand"
+  ],
+  "steps": [
+   {
+    "text": "Hæld vandet i en skål og bland saltet i til det er opløst. Rør derefter halvdelen af mellet i.",
+    "subs": []
+   },
+   {
+    "text": "Tilsæt den anden halvdelen af mellet og ælt dejen. Når dejen er æltet, overdæk dejen og lad den hvile i 10 minutter.",
+    "subs": []
+   },
+   {
+    "text": "Riv osten med den store side af rivejernet.",
+    "subs": []
+   },
+   {
+    "text": "Del dejen i 4 dele og rul dem til bolde.",
+    "subs": []
+   },
+   {
+    "text": "Rul dejen ud så den er meget tynd.",
+    "subs": []
+   },
+   {
+    "text": "Smelt smørret og pensel dejen med det smeltede smør.",
+    "subs": []
+   },
+   {
+    "text": "Kom den revne ost oven på den udrullede dej og strø med sesamfrø.",
+    "subs": []
+   },
+   {
+    "text": "Rul dejen som en pandekage og rul rullen sammen som en snegl. Rul derefter sneglen ud til den er 18cm i diameter.",
+    "subs": []
+   },
+   {
+    "text": "Bag fladbrødet ved middel varme på en pande med smør. Pensel toppen af fladbrødet med smør. Vend brødet en gang i mellem indtil det er gyldent.",
+    "subs": []
+   }
+  ],
+  "notes": "",
+  "section": "Recipes",
+  "group": "Sides",
+  "lang": "da",
+  "order": 14
+ },
+ {
+  "id": "chocolate-chipless-cookies",
+  "title": "Chocolate Chipless Cookies",
+  "kind": "food",
+  "category": "Snacks",
+  "type": "Cookie",
+  "servings": 16,
+  "prep": 60,
+  "cook": 11,
+  "temp": "180",
+  "image": "images/chocolate-chipless-cookies.jpg",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "170g Usaltet Smør",
+     "200g Brun Farin",
+     "50g Sukker",
+     "1 Æg",
+     "1 Æggeblomme",
+     "1 spsk. Vaniljeekstrakt",
+     "219g Mel",
+     "0,75 tsk. Natron",
+     "1 tsk. Salt",
+     "Chokoladeknapper"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Brun Farin",
+   "Chokoladeknapper",
+   "Mel",
+   "Natron",
+   "Salt",
+   "Smør",
+   "Sukker",
+   "Vaniljeekstrakt",
+   "Æg",
+   "Æggeblomme"
+  ],
+  "steps": [
+   {
+    "text": "Forvarm ovnen til 180 ° C.",
+    "subs": []
+   },
+   {
+    "text": "Brun smør ved middel varme under konstant omrøring indtil det begynder at skumme, bliver brunt, og afgiver en nøddeagtig aroma. Afkøl det brunede smør.",
+    "subs": []
+   },
+   {
+    "text": "I en stor skål, bland den afkølede brunede smør, brun farin og hvidt sukker. Pisk, indtil det er godt blandet. Tilsæt æg, æggeblomme og vaniljeekstrakt. Rør det hele godt sammen.",
+    "subs": []
+   },
+   {
+    "text": "I en anden skål blandes mel, salt og natron. Rør halvdelen af de tørre ingredienser i de våde, indtil det hele samler sig. Tilsæt langsomt resten af melet lidt ad gangen, og stop hvis dejen begynder at blive for tør.",
+    "subs": []
+   },
+   {
+    "text": "Sæt cookiedejen på køl i mindst en halv time eller natten over.",
+    "subs": []
+   },
+   {
+    "text": "Form dejen til små kugler og fordel dem på en bageplade med 5cm mellemrum. Bag i 11 minutter eller indtil småkagerne er gyldne i kanten.",
+    "subs": []
+   },
+   {
+    "text": "Afkøl inden servering.",
+    "subs": []
+   }
+  ],
+  "notes": "Hvis ønsket, kan man tilsætte chokoladeknapper til dejkuglerne.",
+  "section": "Recipes",
+  "group": "Snacks",
+  "lang": "da",
+  "order": 21
+ },
+ {
+  "id": "macadamia-kugler",
+  "title": "Macadamia Kugler",
+  "kind": "food",
+  "category": "Snacks",
+  "type": "Non-bake snack",
+  "servings": 1,
+  "prep": 35,
+  "cook": null,
+  "temp": "",
+  "image": "images/macadamia-kugler.png",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "2dl Macadamia Nøddesmør",
+     "3 tsk. Ahorn Sirup",
+     "1dl Kokosnøddemel",
+     "1dl Havregryn",
+     "0,5dl Tørrede Tranebær",
+     "0,75dl Macadamianødder",
+     "Vand"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Havregryn",
+   "Kokosnøddemel",
+   "Macadamia Nøddesmør",
+   "Macadamianødder",
+   "Sirup",
+   "Tranebær",
+   "Vand"
+  ],
+  "steps": [
+   {
+    "text": "Bland alle ingredienser og tilsæt vand til ønsket konsistens.",
+    "subs": []
+   },
+   {
+    "text": "Lad kuglerne køle i køleskab i 30 min.",
+    "subs": []
+   }
+  ],
+  "notes": "",
+  "section": "Recipes",
+  "group": "Snacks",
+  "lang": "da",
+  "order": 22
+ },
+ {
+  "id": "romkugler",
+  "title": "Romkugler",
+  "kind": "food",
+  "category": "Snacks",
+  "type": "Non-bake snack",
+  "servings": 10,
+  "prep": 5,
+  "cook": null,
+  "temp": "",
+  "image": "images/romkugler.jpg",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "1 Hindbærroulade (kan købes færdig)",
+     "1 Mazarintærte (kan købes færdig)",
+     "2 spsk. Hindbærmarmelade",
+     "2cl Romessens",
+     "2 spsk. Kakaopulver",
+     "Krymmel til pynt"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Hindbærmarmelade",
+   "Hindbærroulade",
+   "Kakaopulver",
+   "Krymmel",
+   "Mazarintærte",
+   "Romessens"
+  ],
+  "steps": [
+   {
+    "text": "Ælt hindbærrouladen og mazarintærten sammen i en skål. Brug fingrene eller en røremaskine.",
+    "subs": []
+   },
+   {
+    "text": "Tilsæt marmelade, romessens og kakaopulver. Ælt det godt sammen og form dejen til romkugler.",
+    "subs": []
+   },
+   {
+    "text": "Kom lidt krymmel på en tallerken og tril romkuglerne deri.",
+    "subs": []
+   },
+   {
+    "text": "Stil i køleskabet 30 minutter–1 time inden servering. De kan også holde sig nogle dage i køleskabet.",
+    "subs": []
+   }
+  ],
+  "notes": "",
+  "section": "Recipes",
+  "group": "Snacks",
+  "lang": "da",
+  "order": 23
+ },
+ {
+  "id": "braendende-kaerlighed-med-et-twist",
+  "title": "Brændende kærlighed med et twist",
+  "kind": "food",
+  "category": "Nemlig",
+  "type": "Budgetvenlige måltider",
+  "servings": 4,
+  "prep": 35,
+  "cook": 15,
+  "temp": "",
+  "subcategory": "Budgetvenlige maaltider",
+  "image": "images/braendende-kaerlighed-med-et-twist.png",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "1800g Kartofler",
+     "2 Porrer",
+     "2 Løg",
+     "2 Æbler",
+     "1 potte Purløg",
+     "1 pk. Rødbeder",
+     "2 spsk. Smør",
+     "2dl Mælk",
+     "Salt",
+     "Peber",
+     "2 pk. Bacon",
+     "Vand"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Bacon",
+   "Kartofler",
+   "Løg",
+   "Mælk",
+   "Peber",
+   "Porre",
+   "Purløg",
+   "Rødbeder",
+   "Salt",
+   "Smør",
+   "Vand",
+   "Æble"
+  ],
+  "steps": [
+   {
+    "text": "Skrub eller skræl kartofler og skær dem i små tern. Kog dem i vand uden salt, i 15–20 min. til de er helt bløde og møre. Hæld vandet fra og lad dem dampe af i gryden i et par minutter.",
+    "subs": []
+   },
+   {
+    "text": "Rengør porre og snit i tynde skiver (se tip!).",
+    "subs": []
+   },
+   {
+    "text": "Pil løg og skær i tynde skiver på et nyt skærebræt.",
+    "subs": []
+   },
+   {
+    "text": "Skyl æblet og skær det i tynde både (fjern kernehuset).",
+    "subs": []
+   },
+   {
+    "text": "Skyl og hak purløg fint, og skær rødbeder i strimler. Anret i skåle til servering.",
+    "subs": []
+   },
+   {
+    "text": "Mos kartoflerne med en kartoffelmoser, gaffel eller piskeris.",
+    "subs": []
+   },
+   {
+    "text": "Tilsæt smør og mælk, og rør godt rundt. Smag til med salt og peber.",
+    "subs": []
+   },
+   {
+    "text": "Steg bacon på en stegepande til det er sprødt. Lad det dryppe af på en tallerken med køkkenrulle, men hold så meget fedt som muligt blive tilbage i stegepanden.",
+    "subs": []
+   },
+   {
+    "text": "Steg nu løg i et par minutter i baconfedtet, til de er klare.",
+    "subs": []
+   },
+   {
+    "text": "Tilsæt porrer og steg i ca. 5 min. til porrerne er gyldne og faldet godt sammen.",
+    "subs": []
+   },
+   {
+    "text": "Tilsæt æble og steg ved svag varme til æblerne er møre, og tilsæt gerne en sjat vand, så det ikke er for tørt.",
+    "subs": []
+   },
+   {
+    "text": "Vend bacon tilbage på panden og vend godt rundt i blandingen og smag til med salt og peber.",
+    "subs": []
+   },
+   {
+    "text": "Servér kartoffelmosen på tallerkner og kom bacon, løg, porrer og æbleblandingen ovenpå, pynt med rødbeder og hakket purløg.",
+    "subs": []
+   }
+  ],
+  "notes": "<b>Tip!</b> Skær top og rod af porren på et skærebræt. Flæk porren på langs hele vejen igennem og snit porren i tynde skiver. Kom skiverne i en stor skål med vand og rens skiverne fri for jord. Skift vandet et par gange og lad til sidst skiverne dryppe af i en si.",
+  "section": "Nemlig",
+  "group": "Budgetvenlige måltider",
+  "lang": "da",
+  "order": 50
+ },
+ {
+  "id": "mac-n-cheese-m-bacon-broccoli",
+  "title": "Mac ’n’ cheese med bacon og broccoli",
+  "kind": "food",
+  "category": "Nemlig",
+  "type": "Budgetvenlige måltider",
+  "servings": 4,
+  "prep": 25,
+  "cook": 15,
+  "temp": "200",
+  "subcategory": "Budgetvenlige maaltider",
+  "image": "images/mac-n-cheese-m-bacon-broccoli.png",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "1 Broccoli",
+     "400g Pasta",
+     "Salt",
+     "2 pk. Bacon",
+     "3 spsk. Smør",
+     "3 spsk. Mel",
+     "5dl Mælk",
+     "2 poser Revet Ost",
+     "Peber",
+     "10 spsk. Rasp"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Bacon",
+   "Broccoli",
+   "Mel",
+   "Mælk",
+   "Ost",
+   "Pasta",
+   "Peber",
+   "Rasp",
+   "Salt",
+   "Smør"
+  ],
+  "steps": [
+   {
+    "text": "Tænd ovnen på 200 grader varmluft og sæt en bagerist i ovnen.",
+    "subs": []
+   },
+   {
+    "text": "Skyl og skær broccoli i små buketter på et skærebræt.",
+    "subs": []
+   },
+   {
+    "text": "Kog pasta i letsaltet vand i en stor gryde, efter pakkens anvisning, til den er al dente.",
+    "subs": []
+   },
+   {
+    "text": "Kog broccolibuketterne i ca. 2 min. sammen med pastaen i den sidste del af pastaens kogetiden. Si vandet fra og sæt pasta og broccoli til side.",
+    "subs": []
+   },
+   {
+    "text": "Skær bacon i tern på et andet skærebræt.",
+    "subs": []
+   },
+   {
+    "text": "Steg bacon på en tør stegepande, til den er sprød. Sæt bacon til side på en tallerken med køkkenrulle.",
+    "subs": []
+   },
+   {
+    "text": "Smelt smør i en stor gryde på mellem varme.",
+    "subs": []
+   },
+   {
+    "text": "Tilføj mel og pisk, til du får en melbolle. Rist melbollen i et minuts tid under konstant omrøring, så melsmagen fjernes.",
+    "subs": []
+   },
+   {
+    "text": "Pisk mælken i lidt efter lidt, til du får en opbagt sauce. Lad saucen simre ved svag varme i et par minutter.",
+    "subs": []
+   },
+   {
+    "text": "Hæld ost (gem 1/4 af osten til topping) i saucen (se tip!) og lad den smelte under omrøring. Smag saucen til med salt og peber.",
+    "subs": []
+   },
+   {
+    "text": "Vend det gemte ost sammen med rasp i en lille skål.",
+    "subs": []
+   },
+   {
+    "text": "Kom pasta, broccoli og bacon i ostesaucen og rør det hele godt sammen. Hæld det hele i et smurt ovnfast fad.",
+    "subs": []
+   },
+   {
+    "text": "Drys fadet med oste-raspen og bag retten i ovnen i ca. 15–20 min., til toppen er gylden og sprød.",
+    "subs": []
+   },
+   {
+    "text": "Servér sprød og cremet mac’n’cheese i fad.",
+    "subs": []
+   }
+  ],
+  "notes": "<b>Tip!</b> Opskriften giver en mild ostesauce, men er du osteglad, kan du tilsætte flere forskellige oste som revet danbo, cheddar eller parmesan.",
+  "section": "Nemlig",
+  "group": "Budgetvenlige måltider",
+  "lang": "da",
+  "order": 51
+ },
+ {
+  "id": "stegte-risnudler-m-sesam-kylling",
+  "title": "Stegte risnudler med sesam kylling",
+  "kind": "food",
+  "category": "Nemlig",
+  "type": "Familievenlige måltider",
+  "servings": 4,
+  "prep": 35,
+  "cook": 35,
+  "temp": "",
+  "subcategory": "Familievenlige maaltider",
+  "image": "images/stegte-risnudler-m-sesam-kylling.png",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "2 fed Hvidløg",
+     "300g Gulerødder",
+     "40g Ingefær",
+     "1 Broccoli",
+     "400g Hakket Kylling",
+     "Salt",
+     "Peber",
+     "30g Sesamfrø",
+     "Madolie",
+     "Smør",
+     "200g Risnudler",
+     "4 spsk. Soyasauce",
+     "4 spsk. Østerssauce",
+     "2 spsk. Sukker",
+     "Vand"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Broccoli",
+   "Gulerødder",
+   "Hakket Kylling",
+   "Hvidløg",
+   "Ingefær",
+   "Olie",
+   "Peber",
+   "Risnudler",
+   "Salt",
+   "Sesamfrø",
+   "Smør",
+   "Soyasauce",
+   "Sukker",
+   "Vand",
+   "Østerssauce"
+  ],
+  "steps": [
+   {
+    "text": "Pil og hak hvidløg fint. Gem halvdelen af hvidløget til de stegte nudler.",
+    "subs": []
+   },
+   {
+    "text": "Skyl og skræl gulerødderne. Riv halvdelen på den fine side af et rivejern og skær resten i tynde stave. Gem stavene til de stegte nudler.",
+    "subs": []
+   },
+   {
+    "text": "Skyl og evt. skræl ingefær og riv på den fine side af et rivejern. Stil til side til de stegte nudler.",
+    "subs": []
+   },
+   {
+    "text": "Skyl broccoli, og del i buketter. Snit buketterne i skiver (se tip!). Sæt til side til de stegte nudler.",
+    "subs": []
+   },
+   {
+    "text": "Kom hvidløg og revet gulerod i en skål sammen med hakket kylling, peber og rigeligt salt. Rør farsen grundigt, til den er godt sej. Stil til side.",
+    "subs": []
+   },
+   {
+    "text": "Varm en stor stegepande op og tørrist sesamfrø i et par minutter til de dufter, pas på de ikke brænder. Stil til side i en lille skål.",
+    "subs": []
+   },
+   {
+    "text": "Form farsen til små kyllingeboller med en våd teske og din håndflade.",
+    "subs": []
+   },
+   {
+    "text": "Varm en blanding af olie og smør op stegepanden og steg kyllingebollerne i ca. 4–5 min. ved middelvarme, til de er gyldne og gennemstegte.",
+    "subs": []
+   },
+   {
+    "text": "Drys med de ristede sesamfrø, vend godt rundt og sæt kyllingebollerne til side i en skål. Lad stegepanden stå, den skal du bruge om lidt.",
+    "subs": []
+   },
+   {
+    "text": "Kog nudler i letsaltet vand efter anvisningerne på pakken, til de næsten er færdigkogte men stadig har bid.",
+    "subs": []
+   },
+   {
+    "text": "Hæld nudlerne i en si og skyl dem under koldt vand. Lad dem dryppe af.",
+    "subs": []
+   },
+   {
+    "text": "Varm stegepanden op igen med lidt olie og steg hvidløg, ingefær, gulerodstave og broccoli i ca. 3–5 min.",
+    "subs": []
+   },
+   {
+    "text": "Tilsæt soyasauce, østerssauce og sukker og vend det hele godt rundt.",
+    "subs": []
+   },
+   {
+    "text": "Tilsæt nudlerne og smag til med ekstra soyasauce eller salt og peber. Bliver nudlerne for tørre, kan du med fordel tilsætte lidt vand.",
+    "subs": []
+   },
+   {
+    "text": "Servér de stegte risnudler i østersauce med sprøde grøntsager og top med sesam kyllingebollerne.",
+    "subs": []
+   }
+  ],
+  "notes": "<b>Tip!</b> Du kan også sagtens spise broccoli stokken. Skær eller skræl det yderste af, det kan være lidt trævlet. Snit så det inderste af stokken i skiver, og steg med i retten.",
+  "section": "Nemlig",
+  "group": "Familievenlige måltider",
+  "lang": "da",
+  "order": 53
+ },
+ {
+  "id": "hvidloegspasta-m-parmesan-guanciale",
+  "title": "Hvidløgspasta med parmesan og guanciale",
+  "kind": "food",
+  "category": "Nemlig",
+  "type": "Hurtige måltider",
+  "servings": 4,
+  "prep": 25,
+  "cook": null,
+  "temp": "",
+  "subcategory": "Hurtige maaltider",
+  "image": "images/hvidloegspasta-m-parmesan-guanciale.png",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "1 Broccoli",
+     "400g Spaghetti",
+     "Salt",
+     "4 fed Hvidløg",
+     "60g Parmesan",
+     "2 pk. Guanciale",
+     "2 tsk. Chiliflager",
+     "Peber"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Broccoli",
+   "Chiliflager",
+   "Guanciale",
+   "Hvidløg",
+   "Parmesan",
+   "Peber",
+   "Salt",
+   "Spaghetti"
+  ],
+  "steps": [
+   {
+    "text": "Skyl broccoli og skær i små mundrette buketter på et skærebræt (se tip!).",
+    "subs": []
+   },
+   {
+    "text": "Kog spaghetti i letsaltet vand i en gryde, efter pakkens anvisninger, til den er al dente.",
+    "subs": []
+   },
+   {
+    "text": "Gem ca. 0,5dl kogevand pr. medspiser og stil til side. Hæld resten af kogevandet fra.",
+    "subs": []
+   },
+   {
+    "text": "Det sidste minut tilsættes broccoli i kogevandet. Dræn vandet fra spaghetti og broccoli.",
+    "subs": []
+   },
+   {
+    "text": "Pil hvidløg, og snit i tynde skiver.",
+    "subs": []
+   },
+   {
+    "text": "Parmesan rives på et fint rivejern. Gem lidt i en lille skål til servering.",
+    "subs": []
+   },
+   {
+    "text": "En stor stegepande varmes op på mellem varme. På den tørre pande tilsættes guanciale, og steges langsomt til fedtet smelter.",
+    "subs": []
+   },
+   {
+    "text": "Når guanciale er sprødt, fiskes den af panden og stilles til side på en tallerken med køkkenrulle. Lad fedtet blive i panden.",
+    "subs": []
+   },
+   {
+    "text": "Tilsæt nu hvidløg og chiliflager og lad det stege til det dufter (se tip!). Det må ikke brænde på.",
+    "subs": []
+   },
+   {
+    "text": "Hæld spaghetti, broccoli, sprød guanciale og parmesan i panden og vend godt rundt. Krydr med salt og rigeligt peber, og justér konsistensen med lidt af det gemte kogevand.",
+    "subs": []
+   },
+   {
+    "text": "Server lækker italiensk spaghetti med sprødristet guanciale, parmesan og broccoli.",
+    "subs": []
+   }
+  ],
+  "notes": "<b>Tip!</b> Du kan med fordel skylle broccolistokken, skære den i helt små tern og stege dem med på stegepanden sammen med hvidløg og chiliflager. <b>Vidste du...</b> At guanciale er en italiensk inspireret lufttørret kødvare lavet af svinekæbe. Den er krydret med salt og sort peber som giver en rig og intens smag til retten.",
+  "section": "Nemlig",
+  "group": "Hurtige måltider",
+  "lang": "da",
+  "order": 55
+ },
+ {
+  "id": "teriyakinudler-m-hakket-gris-peanuts",
+  "title": "Teriyakinudler med hakket gris og peanuts",
+  "kind": "food",
+  "category": "Nemlig",
+  "type": "Hurtige måltider",
+  "servings": 4,
+  "prep": 20,
+  "cook": 10,
+  "temp": "",
+  "subcategory": "Hurtige maaltider",
+  "image": "images/teriyakinudler-m-hakket-gris-peanuts.png",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "1 pk. Nudler",
+     "Salt",
+     "40g Ingefær",
+     "80g Peanuts",
+     "Olie",
+     "1 pk. Hakket Svinekød",
+     "Peber",
+     "1 pk. Grøntsagsblanding",
+     "8 spsk. Teriyakiglaze"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Grøntsagsblanding",
+   "Hakket Svinekød",
+   "Ingefær",
+   "Nudler",
+   "Olie",
+   "Peanuts",
+   "Peber",
+   "Salt",
+   "Teriyakiglaze"
+  ],
+  "steps": [
+   {
+    "text": "Kog nudler i letsaltet vand i ca. 3–4 min., til de er møre. Si vandet fra, men gem en kop af kogevandet til at justere saucen med. Skyl dem under koldt vand og lad dem dryppe af.",
+    "subs": []
+   },
+   {
+    "text": "Skræl ingefæren, og riv fint på et rivejern.",
+    "subs": []
+   },
+   {
+    "text": "Hak peanuts fint.",
+    "subs": []
+   },
+   {
+    "text": "Varm neutral olie op i en wokpande eller stor stegepande. Steg ingefæren ved høj varme i ca. 1 min.",
+    "subs": []
+   },
+   {
+    "text": "Tilsæt det hakkede grisekød, og steg yderligere i 4–5 min. (fortsat ved høj varme), til det er gennemstegt og brunet godt af. Krydr med friskkværnet peber.",
+    "subs": []
+   },
+   {
+    "text": "Vend grøntsagsblandingen i wokken, og steg i 3–4 min. (fortsat ved høj varme) – rør jævnligt.",
+    "subs": []
+   },
+   {
+    "text": "Skru ned til middelvarme. Tilsæt de kogte nudler og hæld teriyakiglazen over. Vend wokretten godt rundt, og steg i yderligere 2–3 min., indtil alt er gennemvarmt og saucen er jævnt fordelt. Justér evt. konsistensen med lidt af det gemte kogevand, så nudlerne ikke bliver tørre.",
+    "subs": []
+   },
+   {
+    "text": "Servér den hurtige wok med teriyakinudler og top med hakkede peanuts (se tip!).",
+    "subs": []
+   }
+  ],
+  "notes": "<b>Tip!</b> Top gerne retten med friske krydderurter, hvis du har nogen stående i vindueskarmen - især koriander er oplagt til denne ret.",
+  "section": "Nemlig",
+  "group": "Hurtige måltider",
+  "lang": "da",
+  "order": 56
+ },
+ {
+  "id": "bao-m-teriyaki-kylling-og-sproedt-groent",
+  "title": "Bao med teriyaki-kylling og sprødt grønt",
+  "kind": "food",
+  "category": "Nemlig",
+  "type": "Populære måltider",
+  "servings": 4,
+  "prep": 40,
+  "cook": 10,
+  "temp": "",
+  "subcategory": "Populaere maaltider",
+  "image": "images/bao-m-teriyaki-kylling-og-sproedt-groent.png",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "4 stk. Kyllingebrystfilet",
+     "Madolie",
+     "8 spsk. Teriyakiglaze",
+     "8 Bao",
+     "1 Spidskål",
+     "1 bundt Forårsløg",
+     "300g Gulerødder",
+     "1 Agurk",
+     "1 Lime",
+     "2 spsk. Sesamolie",
+     "Salt",
+     "Peber",
+     "30g Sesamfrø"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Agurk",
+   "Bao",
+   "Forårsløg",
+   "Gulerødder",
+   "Kyllingebrystfilet",
+   "Lime",
+   "Madolie",
+   "Peber",
+   "Salt",
+   "Sesamfrø",
+   "Sesamolie",
+   "Spidskål",
+   "Teriyakiglaze"
+  ],
+  "steps": [
+   {
+    "text": "Skær kylling i mundrette tern på et skærebræt.",
+    "subs": []
+   },
+   {
+    "text": "Varm lidt olie på en stegepande og steg kyllingetern, til de er brunet på alle sider.",
+    "subs": []
+   },
+   {
+    "text": "Tilsæt teriyaki-glaze og vend godt sammen med kyllingen. Lad kyllingen marinere i glazen og stege færdig ved lav varme, imens resten forberedes.",
+    "subs": []
+   },
+   {
+    "text": "Find en si frem. Tag et stykke bagepapir og prik rigeligt med huller i bagepapiret med en kødnål, kniv eller lignende. Læg bagepapiret ned i sien.",
+    "subs": []
+   },
+   {
+    "text": "Kog vand op i en gryde med låg. Vær opmærksom på, at sien skal kunne passe ned i gryden uden at ramme vandet.",
+    "subs": []
+   },
+   {
+    "text": "Læg bao ned i sien med bagepapir og kom sien henover det simrende vand i gryden og læg låg på sien. Læg ikke bao ovenpå hinanden, men damp i stedet et par bao ad gangen, indtil alle bao er dampet.",
+    "subs": []
+   },
+   {
+    "text": "Lad dem dampe i ca. 10 min., indtil dine bao er blevet bløde og luftige. Forbered imens grøntsager og salat.",
+    "subs": []
+   },
+   {
+    "text": "Lad dine bao hvile på en tallerken i ca. 2–4 min., hvor de vendes halvvejs, så de ikke bliver fugtige på den ene side.",
+    "subs": []
+   },
+   {
+    "text": "Pluk de yderste blade af spidskålet, skyl det og snit det i tynde strimler på et andet skærebræt - brug evt. et mandolinjern.",
+    "subs": []
+   },
+   {
+    "text": "Skyl forårsløg og snit fint.",
+    "subs": []
+   },
+   {
+    "text": "Skræl gulerødder og fortsæt med at skrælle dem, så du får tynde gulerodsbånd.",
+    "subs": []
+   },
+   {
+    "text": "Skyl agurk og skær i tynde, korte stænger.",
+    "subs": []
+   },
+   {
+    "text": "Skyl og riv limeskallen på den fine side af et rivejern. Skær i både.",
+    "subs": []
+   },
+   {
+    "text": "Kom alle grøntsagerne i en salatskål og vend godt sammen med sesamolie, limeskal, salt og peber. Smag til med limesaft (gem gerne et par limebåde til servering)",
+    "subs": []
+   },
+   {
+    "text": "Rist sesamfrøene på en varm og tør stegepande. Drys de ristede sesamfrø henover teriyaki-kyllingen inden servering.",
+    "subs": []
+   },
+   {
+    "text": "Lad hver medspiser samle sine egne bao med sprødt grønt og teriyaki-kylling. Nyd det resterende grønt som sprød salat til de bløde bao.",
+    "subs": []
+   }
+  ],
+  "notes": "<b>Tip!</b> Skal du dampe bao til 4 eller 5 personer, kan du med fordel have gang i to gryder.",
+  "section": "Nemlig",
+  "group": "Populære måltider",
+  "lang": "da",
+  "order": 58
+ },
+ {
+  "id": "koedboller-i-cremet-peanutsauce",
+  "title": "Kødboller i cremet peanutsauce",
+  "kind": "food",
+  "category": "Nemlig",
+  "type": "Verdens måltider",
+  "servings": 4,
+  "prep": 30,
+  "cook": 15,
+  "temp": "",
+  "subcategory": "Verdens maaltider",
+  "image": "images/koedboller-i-cremet-peanutsauce.png",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "2 poser Ris",
+     "Salt",
+     "2 Løg",
+     "2 fed Hvidløg",
+     "1 Rød Peberfrugt",
+     "1 Lime (Skal og Saft)",
+     "2 pk. Hakket Grisekød",
+     "Peber",
+     "2 Æg",
+     "10 spsk. Hvedemel",
+     "1dl Mælk",
+     "Madolie",
+     "2 poser Jordnøddesmør",
+     "4dl Kokosmælk",
+     "1dl Vand",
+     "4 spsk. Østerssauce"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Hakket Grisekød",
+   "Hvidløg",
+   "Jordnøddesmør",
+   "Kokosmælk",
+   "Lime",
+   "Løg",
+   "Mel",
+   "Mælk",
+   "Olie",
+   "Peber",
+   "Peberfrugt",
+   "Ris",
+   "Salt",
+   "Vand",
+   "Æg",
+   "Østerssauce"
+  ],
+  "steps": [
+   {
+    "text": "Skyl risene grundigt under koldt vand i en si.",
+    "subs": []
+   },
+   {
+    "text": "Kom de skyllede ris i en gryde med rigeligt friskt vand (minimum 4 dele vand for hver del ris) og lidt salt.",
+    "subs": []
+   },
+   {
+    "text": "Kog risene i ca. 12 min.",
+    "subs": []
+   },
+   {
+    "text": "Sluk for blusset, si det overskydende vand fra risene og lad risene hvile i gryden i ca. 10 min. under låg.",
+    "subs": []
+   },
+   {
+    "text": "Pil og hak løg og hvidløg fint på et skærebræt.",
+    "subs": []
+   },
+   {
+    "text": "Skyl peberfrugt og kassér kernehuset. Skær peberfrugt i tynde strimler.",
+    "subs": []
+   },
+   {
+    "text": "Skyl lime, riv skallen og skær i både.",
+    "subs": []
+   },
+   {
+    "text": "Kom hakket kød i en røreskål og rør det sejt med salt.",
+    "subs": []
+   },
+   {
+    "text": "Tilføj halvdelen af det hakkede løg og hvidløg, æg, hvedemel, mælk og peber. Lad gerne farsen hvile i ca. 10–15 min. på køl.",
+    "subs": []
+   },
+   {
+    "text": "Form farsen til små runde kødboller med en våd teske og din håndflade.",
+    "subs": []
+   },
+   {
+    "text": "Varm en stor stegepande op med lidt olie og steg kødbollerne, til de er brunet godt på alle sider. Stil dem til side på en tallerken.",
+    "subs": []
+   },
+   {
+    "text": "Kom lidt olie på den samme stegepande, som kødbollerne stegte på, og steg resten af det hakkede løg og hvidløg, til løgene er bløde.",
+    "subs": []
+   },
+   {
+    "text": "Tilføj jordnøddesmør, kokosmælk, limeskal og vand og lad saucen simre i et par minutter, til jordnøddesmørret er jævnt fordelt. Tilsæt evt. mere vand hvis saucen er for tyk.",
+    "subs": []
+   },
+   {
+    "text": "Smag til med østerssauce, limesaft, salt og peber.",
+    "subs": []
+   },
+   {
+    "text": "Kom kødbollerne og peberfrugter i peanutsaucen og lad begge dele simre med i ca. 5–8 min.",
+    "subs": []
+   },
+   {
+    "text": "Servér kødboller i cremet peanutkokossauce på en bund af ris.",
+    "subs": []
+   }
+  ],
+  "notes": "",
+  "section": "Nemlig",
+  "group": "Verdens måltider",
+  "lang": "da",
+  "order": 60
+ },
+ {
+  "id": "spaghetti-carbonara-m-guanciale",
+  "title": "Spaghetti carbonara med guanciale",
+  "kind": "food",
+  "category": "Nemlig",
+  "type": "Verdens måltider",
+  "servings": 2,
+  "prep": 20,
+  "cook": 25,
+  "temp": "",
+  "subcategory": "Verdens maaltider",
+  "image": "images/spaghetti-carbonara-m-guanciale.png",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "200g Spaghetti",
+     "1 pk. Guanciale",
+     "250g Parmesan",
+     "2 Æg",
+     "Salt",
+     "Peber",
+     "Persille"
+    ]
+   }
+  ],
+  "ingredientKeys": [
+   "Guanciale",
+   "Parmesan",
+   "Peber",
+   "Persille",
+   "Salt",
+   "Spaghetti",
+   "Æg"
+  ],
+  "steps": [
+   {
+    "text": "På en tør stegepande, steges guanciale ved middel varme.",
+    "subs": []
+   },
+   {
+    "text": "Lad fedtet smelte langsomt, til kødet er gyldent og let sprødt.",
+    "subs": []
+   },
+   {
+    "text": "Tag kødet af panden med en ske, uden fedtet og lad det blive sprødt på en tallerken med køkkenrulle. Gem fedtet til senere.",
+    "subs": []
+   },
+   {
+    "text": "Kog spaghetti i letsaltet vand i en stor gryde, efter pakkens anvisninger, til den er al dente.",
+    "subs": []
+   },
+   {
+    "text": "Gem ca. 0,5dl kogevand pr. medspiser og stil til side. Hæld resten af kogevandet fra spaghettien.",
+    "subs": []
+   },
+   {
+    "text": "Lad spaghettien blive i gryden.",
+    "subs": []
+   },
+   {
+    "text": "Pluk og skyl persille. Hak det fint og sæt til side i en skål til servering.",
+    "subs": []
+   },
+   {
+    "text": "Riv parmesan fint på et rivejern. Gem en lille smule parmesan til servering.",
+    "subs": []
+   },
+   {
+    "text": "Pisk æggene sammen i en røreskål med revet parmesan og rigeligt friskkværnet peber.",
+    "subs": []
+   },
+   {
+    "text": "I gryden med den varme kogte spaghetti tilføjes nu æggemassen – gryden må ikke stå på det varme blus, da retten så kan skille.",
+    "subs": []
+   },
+   {
+    "text": "Vend den varme spaghetti sammen med æggemassen under konstant omrøring i gryden i ca. 1–2 min., indtil saucen begynder at tykne. Justér evt. konsistensen med lidt af kogevandet fra spaghettien.",
+    "subs": []
+   },
+   {
+    "text": "Tilføj stegt guanciale og tilsæt efter smag, noget af det smeltede fedt derfra. Vend godt rundt og smag retten til med salt og peber.",
+    "subs": []
+   },
+   {
+    "text": "Servér straks spaghetti carbonara med guanciale og top med persille og resten af parmesanen.",
+    "subs": []
+   }
+  ],
+  "notes": "<b>Vidste du...</b> At guanciale er en italiensk inspireret lufttørret kødvare lavet af svinekæbe. Den er krydret med salt og sort peber som giver en rig og intens smag til retten.",
+  "section": "Nemlig",
+  "group": "Verdens måltider",
+  "lang": "da",
+  "order": 61
+ },
+ {
+  "id": "sangria",
+  "title": "Sangria",
+  "kind": "drink",
+  "category": "Cocktails",
+  "subcategory": "Amaro/Bitters/Others",
+  "type": "Amaro/Bitters/Others",
+  "sweetTart": 0.0,
+  "flavors": [
+   "Wine",
+   "Fruity",
+   "Dry",
+   "Refreshing",
+   "Tannin",
+   "Boozy"
+  ],
+  "history": "Sangria was made by early Greeks and Romans who would add spices, sugars, and local fruits and vegetables to their wine. The term \"Sangria\" can be traced back to 18th century Spain, where it has been a staple of the culture. It was introduced to the U.S. at the 1964 World's fair in New York City, and Americans have been thirsty for Sangria ever since! Made in batches you can customize your Sangria with all your favorite fruits and berries.",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "Spanish Red Wine 2 bottles",
+     "Brandy 177,5ml",
+     "Orange 2 (1 diced and 1 juiced)",
+     "Green Apple, diced 1",
+     "Lemon, diced 1",
+     "Cinnamon Stick 1"
+    ]
+   }
+  ],
+  "garnish": [],
+  "tools": [
+   "Pitcher",
+   "Bar spoon",
+   "Measuring cups",
+   "Juicer"
+  ],
+  "glass": [
+   "Pitcher"
+  ],
+  "ingredientKeys": [
+   "Brandy",
+   "Cinnamon Stick",
+   "Green Apple",
+   "Lemon",
+   "Orange",
+   "Red Wine"
+  ],
+  "steps": [
+   {
+    "text": "In a pitcher add diced fruit.",
+    "subs": []
+   },
+   {
+    "text": "Add juice from 1 orange and 1 cinnamon stick.",
+    "subs": []
+   },
+   {
+    "text": "Add brandy and wine.",
+    "subs": []
+   },
+   {
+    "text": "Stir with bar spoon and refrigerate for 30 minutes.",
+    "subs": []
+   },
+   {
+    "text": "Pour into glass of your choice and top with soda water (optional).",
+    "subs": []
+   }
+  ],
+  "notes": "Try white or rose for a lighter sangria. Also feel free to add your favorite fruits and berries to customize your own sangria!",
+  "section": "Cocktail cards",
+  "group": "Amaro/Bitters/Others",
+  "lang": "en",
+  "image": "images/cocktails/sangria.svg",
+  "art": true,
+  "spirits": [
+   "Cognac/Brandy",
+   "Wine/Sparkling"
+  ],
+  "order": 41,
+  "glassGroup": "Pitcher"
+ },
+ {
+  "id": "brandy-alexander",
+  "title": "Brandy Alexander",
+  "kind": "drink",
+  "category": "Cocktails",
+  "subcategory": "Brandy",
+  "type": "Brandy",
+  "sweetTart": -0.4,
+  "flavors": [
+   "Sweet",
+   "Creamy",
+   "Chocolate",
+   "Caramel",
+   "Vanilla"
+  ],
+  "history": "The Brandy Alexander was most likely created in the early 1920's by bartender Troy Alexander. The cocktail was created for a party celebrating clean coal, and he wanted to create a \"white\" cocktail to represent the fictional clean coal character Phoebe Snow. This version was made with gin, but an unknown bartender took the recipe and changed it to brandy. This was also a favorite cocktail of John Lennon, who famously would say it tasted like a boozy chocolate milkshake.",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "Cognac 45ml",
+     "Crème de Cacao 30ml",
+     "Heavy Cream 30ml"
+    ]
+   }
+  ],
+  "garnish": [
+   "Ground Nutmeg"
+  ],
+  "tools": [
+   "Shaker",
+   "Strainer & Fine Strainer (optional)",
+   "Jigger",
+   "Microplane",
+   "Coupe or Martini Glass"
+  ],
+  "glass": [
+   "Coupe",
+   "Martini Glass"
+  ],
+  "ingredientKeys": [
+   "Cognac",
+   "Crème de Cacao",
+   "Heavy Cream",
+   "Nutmeg"
+  ],
+  "steps": [
+   {
+    "text": "Place all ingredients into a shaker.",
+    "subs": []
+   },
+   {
+    "text": "Add ice and shake for 20 seconds.",
+    "subs": []
+   },
+   {
+    "text": "Double strain into coupe or martini glass.",
+    "subs": []
+   },
+   {
+    "text": "Garnish with fresh ground nutmeg using microplane.",
+    "subs": []
+   }
+  ],
+  "notes": "For a stronger \"chocolate milkshake\" flavor add more créme de cacao and less brandy.",
+  "section": "Cocktail cards",
+  "group": "Brandy",
+  "lang": "en",
+  "image": "images/cocktails/brandy-alexander.svg",
+  "art": true,
+  "spirits": [
+   "Cognac/Brandy",
+   "Liqueurs"
+  ],
+  "order": 26,
+  "glassGroup": "Coupe"
+ },
+ {
+  "id": "brandy-flip",
+  "title": "Brandy Flip",
+  "kind": "drink",
+  "category": "Cocktails",
+  "subcategory": "Brandy",
+  "type": "Brandy",
+  "sweetTart": -0.3,
+  "flavors": [
+   "Sweet",
+   "Rich",
+   "Thick",
+   "Christmas"
+  ],
+  "history": "The term \"flip\" dates back to the late 1600s and refers to a drink consisting of beer, rum, eggs, and sugar. Flipping occurred by adding a red-hot iron to the drink causing it to froth or \"flip\". The version known today was first seen in Jerry Thomas's book called the Bartender's Guide. It is typically made with brandy or sherry. The cocktail is also very closely related to eggnog, simply add cream or milk!",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "Cognac 60ml",
+     "Demerara Sugar 22,5ml",
+     "Egg 1 – Consuming raw eggs may increase risk of foodborne illness."
+    ]
+   }
+  ],
+  "garnish": [
+   "Ground Nutmeg"
+  ],
+  "tools": [
+   "Shaker",
+   "Strainer & Fine Strainer (optional)",
+   "Jigger",
+   "Small stemmed glass or 120ml coupe",
+   "Microplane"
+  ],
+  "glass": [
+   "Coupe",
+   "Small stemmed glass"
+  ],
+  "ingredientKeys": [
+   "Cognac",
+   "Demerara Sugar",
+   "Egg",
+   "Nutmeg"
+  ],
+  "steps": [
+   {
+    "text": "Place all ingredients into a shaker.",
+    "subs": []
+   },
+   {
+    "text": "Dry shake for 20 seconds (no ice).",
+    "subs": []
+   },
+   {
+    "text": "Add ice and shake for 8–10 seconds.",
+    "subs": []
+   },
+   {
+    "text": "Double strain into small stemmed glass or coupe.",
+    "subs": []
+   },
+   {
+    "text": "Garnish with fresh ground nutmeg.",
+    "subs": []
+   }
+  ],
+  "notes": "To make eggnog use the same recipe, and add 30ml of heavy cream or 60ml of milk!",
+  "section": "Cocktail cards",
+  "group": "Brandy",
+  "lang": "en",
+  "image": "images/cocktails/brandy-flip.svg",
+  "art": true,
+  "spirits": [
+   "Cognac/Brandy"
+  ],
+  "order": 27,
+  "glassGroup": "Coupe"
+ },
+ {
+  "id": "sidecar",
+  "title": "Sidecar",
+  "kind": "drink",
+  "category": "Cocktails",
+  "subcategory": "Brandy",
+  "type": "Brandy",
+  "sweetTart": 0.4,
+  "flavors": [
+   "Tart",
+   "Crisp",
+   "Orange",
+   "Fruity",
+   "Grape"
+  ],
+  "history": "The Sidecar is a cocktail created during Prohibition but originating in France. Many popular cocktails were coming from Europe at this time as many American bartenders moved to Europe looking for work. It is difficult to know exactly who created this cocktail, but it first became popular in the 1920s. Many bartenders claimed credit for inventing the cocktail including Harry McElhone and Robert Vermier.",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "Brandy (traditionally cognac) 60ml",
+     "Orange Liqueur 22,5ml",
+     "Lemon Juice 15ml"
+    ]
+   }
+  ],
+  "garnish": [
+   "Sugar Rim",
+   "Lemon Peel"
+  ],
+  "tools": [
+   "Shaker",
+   "Strainer & Fine Strainer (optional)",
+   "Jigger",
+   "Juicer",
+   "Coupe or Martini Glass"
+  ],
+  "glass": [
+   "Coupe",
+   "Martini Glass"
+  ],
+  "ingredientKeys": [
+   "Brandy",
+   "Lemon Juice",
+   "Lemon Peel",
+   "Orange Liqueur",
+   "Sugar"
+  ],
+  "steps": [
+   {
+    "text": "Add sugar rim to coupe or martini glass.",
+    "subs": []
+   },
+   {
+    "text": "Place all ingredients into a shaker.",
+    "subs": []
+   },
+   {
+    "text": "Add ice and shake for 8–10 seconds.",
+    "subs": []
+   },
+   {
+    "text": "Double strain into coupe or martini glass.",
+    "subs": []
+   },
+   {
+    "text": "Garnish with lemon peel.",
+    "subs": []
+   }
+  ],
+  "notes": "Orange liqueur can vary in sweetness, so add or take away to best fit your palette.",
+  "section": "Cocktail cards",
+  "group": "Brandy",
+  "lang": "en",
+  "image": "images/cocktails/sidecar.svg",
+  "art": true,
+  "spirits": [
+   "Cognac/Brandy",
+   "Liqueurs"
+  ],
+  "order": 28,
+  "glassGroup": "Coupe"
+ },
+ {
+  "id": "vieux-carre",
+  "title": "Vieux Carré",
+  "kind": "drink",
+  "category": "Cocktails",
+  "subcategory": "Brandy",
+  "type": "Brandy",
+  "sweetTart": -0.2,
+  "flavors": [
+   "Boozy",
+   "Sweet",
+   "Herbal",
+   "Bitter"
+  ],
+  "history": "Vieux Carré translates to \"Old Square\" and is a term used to reference the French Quarters in New Orleans. It was created by Walter Bergeron in 1938 at the famous Carousel bar inside Hotel Monteleone in New Orleans. At the Carousel Bar you sit down and slowly spin around the bartenders like a carousel. It was frequently visited by many famous authors including Ernest Hemingway and Truman Capote.",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "Cognac 30ml",
+     "Rye Whiskey 30ml",
+     "Sweet Vermouth 30ml",
+     "Benedictine 1 bar spoon",
+     "Angostura Bitters 2 dashes",
+     "Peychaud's Bitters 2 dashes"
+    ]
+   }
+  ],
+  "garnish": [
+   "Lemon Twist or Cherry"
+  ],
+  "tools": [
+   "Mixing Glass",
+   "Strainer",
+   "Bar Spoon",
+   "Jigger",
+   "Rocks Glass"
+  ],
+  "glass": [
+   "Rocks Glass"
+  ],
+  "ingredientKeys": [
+   "Angostura Bitters",
+   "Benedictine",
+   "Cherry",
+   "Cognac",
+   "Lemon Twist",
+   "Peychaud's Bitters",
+   "Rye Whiskey",
+   "Sweet Vermouth"
+  ],
+  "steps": [
+   {
+    "text": "Place all ingredients into mixing glass.",
+    "subs": []
+   },
+   {
+    "text": "Add ice and stir for 30 seconds.",
+    "subs": []
+   },
+   {
+    "text": "Strain into rocks glass over ice or large cube.",
+    "subs": []
+   },
+   {
+    "text": "Garnish with lemon twist or cherry.",
+    "subs": []
+   }
+  ],
+  "notes": "",
+  "section": "Cocktail cards",
+  "group": "Brandy",
+  "lang": "en",
+  "image": "images/cocktails/vieux-carre.svg",
+  "art": true,
+  "spirits": [
+   "Whiskey",
+   "Cognac/Brandy",
+   "Amaro/Aperitif",
+   "Liqueurs"
+  ],
+  "order": 29,
+  "glassGroup": "Rocks Glass"
+ },
+ {
+  "id": "wisconsin-old-fashioned",
+  "title": "Wisconsin Old Fashioned",
+  "kind": "drink",
+  "category": "Cocktails",
+  "subcategory": "Brandy",
+  "type": "Brandy",
+  "sweetTart": -0.3,
+  "flavors": [
+   "Fruity",
+   "Sweet",
+   "Raisin",
+   "Vanilla"
+  ],
+  "history": "The Wisconsin Old Fashioned was introduced in 1893 as part of the Chicago World's Fair. Brandy was getting difficult to obtain so an American liquor company called Korbel decided to make brandy and feature it at the fair and loved it so much they took it home. Not long after that the Wisconsin Old Fashioned was born. Wisconsin is the largest US consumer of brandy and makes up over 50% of all Korbel sales.",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "Brandy 60ml",
+     "Orange Slices 2",
+     "Maraschino Cherry 1",
+     "Sugar Cube 1",
+     "Angostura Bitters 3 dashes"
+    ]
+   }
+  ],
+  "garnish": [
+   "Cherry",
+   "Orange Slice"
+  ],
+  "tools": [
+   "Jigger",
+   "Bar Spoon",
+   "Muddle",
+   "Double Rocks Glass (360ml)"
+  ],
+  "glass": [
+   "Double Rocks Glass"
+  ],
+  "ingredientKeys": [
+   "Angostura Bitters",
+   "Brandy",
+   "Cherry",
+   "Maraschino Cherry",
+   "Orange Slice",
+   "Sugar Cube"
+  ],
+  "steps": [
+   {
+    "text": "Place orange slices and cherry into glass.",
+    "subs": []
+   },
+   {
+    "text": "Add sugar cube and 3 dashes of Angostura bitters.",
+    "subs": []
+   },
+   {
+    "text": "Lightly muddle everything until sugar is dissolved.",
+    "subs": []
+   },
+   {
+    "text": "Add ice to glass, pour in Brandy and stir.",
+    "subs": []
+   },
+   {
+    "text": "Add 7-up or Squirt to taste.",
+    "subs": []
+   },
+   {
+    "text": "Garnish with orange slice and cherry.",
+    "subs": []
+   }
+  ],
+  "notes": "Add 7-up for \"sweet\", Squirt for \"sour\", or soda water for \"press\" style old fashioned.",
+  "section": "Cocktail cards",
+  "group": "Brandy",
+  "lang": "en",
+  "image": "images/cocktails/wisconsin-old-fashioned.svg",
+  "art": true,
+  "spirits": [
+   "Cognac/Brandy"
+  ],
+  "order": 30,
+  "glassGroup": "Rocks Glass"
+ },
+ {
+  "id": "chocolate-martini",
+  "title": "Chocolate Martini",
+  "kind": "drink",
+  "category": "Cocktails",
+  "subcategory": "Dessert",
+  "type": "Dessert",
+  "sweetTart": -0.4,
+  "flavors": [
+   "Sweet",
+   "Chocolate",
+   "Bitter",
+   "Creamy"
+  ],
+  "history": "As the story goes the Chocolate Martini was created in 1955 by Elizabeth Taylor and Rock Hudson while filming Giant. They both were staying in rented houses across the street from each other and spent much time together outside of filming. When asked what inspired them, they said, \"We both love chocolate and we both love martinis, so why not put chocolate liquor in a vodka martini?\" The rest, as they say in Hollywood, is a wrap!",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "Vodka 30ml",
+     "Kahlua 22,5ml",
+     "Crème de Cacao 22,5ml",
+     "Baileys 22,5ml",
+     "Heavy Cream 15ml"
+    ]
+   }
+  ],
+  "garnish": [
+   "Chocolate Syrup",
+   "Shaved Chocolate"
+  ],
+  "tools": [
+   "Shaker",
+   "Strainer",
+   "Jigger",
+   "Martini Glass"
+  ],
+  "glass": [
+   "Martini Glass"
+  ],
+  "ingredientKeys": [
+   "Baileys",
+   "Chocolate",
+   "Chocolate Syrup",
+   "Crème de Cacao",
+   "Heavy Cream",
+   "Kahlua",
+   "Vodka"
+  ],
+  "steps": [
+   {
+    "text": "Place all ingredients into a shaker.",
+    "subs": []
+   },
+   {
+    "text": "Add ice and shake for 20 seconds.",
+    "subs": []
+   },
+   {
+    "text": "Add chocolate to inside of glass.",
+    "subs": []
+   },
+   {
+    "text": "Double strain into glass.",
+    "subs": []
+   },
+   {
+    "text": "Garnish with chocolate syrup and shaved chocolate.",
+    "subs": []
+   }
+  ],
+  "notes": "Use a squeeze bottle or bar spoon for running chocolate around inside of glass.",
+  "section": "Cocktail cards",
+  "group": "Dessert",
+  "lang": "en",
+  "image": "images/cocktails/chocolate-martini.svg",
+  "art": true,
+  "spirits": [
+   "Vodka",
+   "Liqueurs"
+  ],
+  "order": 33,
+  "glassGroup": "Martini Glass"
+ },
+ {
+  "id": "grasshopper",
+  "title": "Grasshopper",
+  "kind": "drink",
+  "category": "Cocktails",
+  "subcategory": "Dessert",
+  "type": "Dessert",
+  "sweetTart": -0.5,
+  "flavors": [
+   "Sweet",
+   "Minty",
+   "Chocolate",
+   "Creamy"
+  ],
+  "history": "The Grasshopper was reportedly created by Philibert Guichet, the owner of New Orleans famous Tujague's restaurant. The cocktail was created for a New York City cocktail competition and placed second in 1919. The following year Prohibition started and as a result many cocktails were not documented. However, a 1919 newspaper had the cocktail listed for its second-place prize. Tujague's is still known for its signature Grasshopper cocktail.",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "Crème de Menthe (green) 30ml",
+     "Crème de Cacao 30ml",
+     "Heavy Cream 30ml"
+    ]
+   }
+  ],
+  "garnish": [
+   "Ground Nutmeg or Chocolate"
+  ],
+  "tools": [
+   "Shaker",
+   "Strainer",
+   "Jigger",
+   "Coupe or Martini Glass"
+  ],
+  "glass": [
+   "Coupe",
+   "Martini Glass"
+  ],
+  "ingredientKeys": [
+   "Chocolate",
+   "Crème de Cacao",
+   "Crème de Menthe",
+   "Heavy Cream",
+   "Nutmeg"
+  ],
+  "steps": [
+   {
+    "text": "Place all ingredients into a shaker.",
+    "subs": []
+   },
+   {
+    "text": "Add ice and shake for 15–20 seconds.",
+    "subs": []
+   },
+   {
+    "text": "Double strain into coupe or martini glass.",
+    "subs": []
+   },
+   {
+    "text": "Garnish with fresh ground nutmeg or chocolate.",
+    "subs": []
+   }
+  ],
+  "notes": "For a boozier cocktail add 30ml of brandy. For a boozy milkshake add a scoop of vanilla or chocolate mint ice cream and serve in a larger glass.",
+  "section": "Cocktail cards",
+  "group": "Dessert",
+  "lang": "en",
+  "image": "images/cocktails/grasshopper.svg",
+  "art": true,
+  "spirits": [
+   "Liqueurs"
+  ],
+  "order": 34,
+  "glassGroup": "Coupe"
+ },
+ {
+  "id": "tiramisu-cocktail",
+  "title": "Tiramisu Cocktail",
+  "kind": "drink",
+  "category": "Cocktails",
+  "subcategory": "Dessert",
+  "type": "Dessert",
+  "sweetTart": -0.4,
+  "flavors": [
+   "Coffee",
+   "Sweet",
+   "Rich",
+   "Chocolate",
+   "Savory"
+  ],
+  "history": "Tiramisu is the most popular dessert in the world, and it was only a matter of time until a cocktail would be created to match the flavor of this delicious coffee cake treat. Adam Ennis is credited for creating this cocktail at the Restaurant Isola in London, England in 2001. This cocktail not only includes an egg yolk, but has the addition of mascarpone cheese and could serve as its own dessert!",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "Cognac or Brandy 30ml",
+     "Kahlua 15ml",
+     "Crème de Cacao 15ml",
+     "Heavy Cream 30ml",
+     "Egg Yolk 1",
+     "Mascarpone Cheese 1 tbsp"
+    ]
+   }
+  ],
+  "garnish": [
+   "Chocolate Powder"
+  ],
+  "tools": [
+   "Shaker",
+   "Strainer",
+   "Jigger",
+   "Small Coupe or Coffee Cup"
+  ],
+  "glass": [
+   "Coffee Cup",
+   "Small Coupe"
+  ],
+  "ingredientKeys": [
+   "Brandy",
+   "Chocolate Powder",
+   "Cognac",
+   "Crème de Cacao",
+   "Egg Yolk",
+   "Heavy Cream",
+   "Kahlua",
+   "Mascarpone Cheese"
+  ],
+  "steps": [
+   {
+    "text": "Place all ingredients into a shaker.",
+    "subs": []
+   },
+   {
+    "text": "Add ice and shake for 15–20 seconds.",
+    "subs": []
+   },
+   {
+    "text": "Remove ice and shake again for 30 seconds (reverse dry shake).",
+    "subs": []
+   },
+   {
+    "text": "Strain into glass.",
+    "subs": []
+   },
+   {
+    "text": "Garnish with chocolate powder.",
+    "subs": []
+   }
+  ],
+  "notes": "The reverse dry shake allows you to thicken your cocktail with longer shaking but without dilution.",
+  "section": "Cocktail cards",
+  "group": "Dessert",
+  "lang": "en",
+  "image": "images/cocktails/tiramisu-cocktail.svg",
+  "art": true,
+  "spirits": [
+   "Cognac/Brandy",
+   "Liqueurs"
+  ],
+  "order": 35,
+  "glassGroup": "Coupe"
+ },
+ {
+  "id": "toffee-cocktail",
+  "title": "Toffee Cocktail",
+  "kind": "drink",
+  "category": "Cocktails",
+  "subcategory": "Dessert",
+  "type": "Dessert",
+  "sweetTart": -0.7,
+  "flavors": [
+   "Caramel",
+   "Sweet",
+   "Almond",
+   "Creamy",
+   "Chocolate"
+  ],
+  "history": "The Toffee cocktail has become an internet favorite. Regularly found on Pinterest, YouTube, and Instagram, this drink is becoming one of the more popular dessert cocktails. The inventor is unknown, but you'll be sure to impress your friends with this rich, sweet, and delicious drink!",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "Amaretto 30ml",
+     "Baileys 30ml",
+     "Kahlua 30ml",
+     "Heavy Cream 60ml"
+    ]
+   }
+  ],
+  "garnish": [
+   "Caramel",
+   "Shaved Chocolate"
+  ],
+  "tools": [
+   "Shaker",
+   "Strainer",
+   "Jigger",
+   "Martini Glass"
+  ],
+  "glass": [
+   "Martini Glass"
+  ],
+  "ingredientKeys": [
+   "Amaretto",
+   "Baileys",
+   "Caramel",
+   "Chocolate",
+   "Heavy Cream",
+   "Kahlua"
+  ],
+  "steps": [
+   {
+    "text": "Place all ingredients into a shaker.",
+    "subs": []
+   },
+   {
+    "text": "Add ice and shake for 20 seconds.",
+    "subs": []
+   },
+   {
+    "text": "Rim glass with caramel and shaved chocolate.",
+    "subs": []
+   },
+   {
+    "text": "Strain drink into glass.",
+    "subs": []
+   },
+   {
+    "text": "Garnish with more caramel and shaved chocolate.",
+    "subs": []
+   }
+  ],
+  "notes": "Add caramel and chocolate to the inside of the glass for a better presentation.",
+  "section": "Cocktail cards",
+  "group": "Dessert",
+  "lang": "en",
+  "image": "images/cocktails/toffee-cocktail.svg",
+  "art": true,
+  "spirits": [
+   "Liqueurs"
+  ],
+  "order": 32,
+  "glassGroup": "Martini Glass"
+ },
+ {
+  "id": "aviation",
+  "title": "Aviation",
+  "kind": "drink",
+  "category": "Cocktails",
+  "subcategory": "Gin",
+  "type": "Gin",
+  "sweetTart": 0.4,
+  "flavors": [
+   "Tart",
+   "Dry",
+   "Floral",
+   "Cherry",
+   "Herbal",
+   "Light"
+  ],
+  "history": "The Aviation was created by Hugo Ensslin, the head bartender at Hotel Wallick in New York in the early 1900s. It was considered one of the first \"industry\" drinks and if you ordered it, you were considered an insider in the cocktail world. The Aviation became less popular as crème de violette became more difficult to find and recipes often left it out. However, recently the original Aviation is making a comeback, and becoming a favorite once again.",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "Gin 60ml",
+     "Maraschino 15ml",
+     "Lemon Juice 22,5ml",
+     "Crème de Violette 7,5ml"
+    ]
+   }
+  ],
+  "garnish": [
+   "Lemon Peel or Dark Cherry"
+  ],
+  "tools": [
+   "Shaker",
+   "Strainer & Fine Strainer (optional)",
+   "Jigger",
+   "Y-Peeler",
+   "Coupe or Martini Glass"
+  ],
+  "glass": [
+   "Coupe",
+   "Martini Glass"
+  ],
+  "ingredientKeys": [
+   "Crème de Violette",
+   "Dark Cherry",
+   "Gin",
+   "Lemon Juice",
+   "Lemon Peel",
+   "Maraschino"
+  ],
+  "steps": [
+   {
+    "text": "Place all ingredients into a shaker.",
+    "subs": []
+   },
+   {
+    "text": "Add ice to shaker and shake for 8–10 seconds.",
+    "subs": []
+   },
+   {
+    "text": "Double strain into coupe or martini glass.",
+    "subs": []
+   },
+   {
+    "text": "Garnish with lemon peel or cherry.",
+    "subs": []
+   }
+  ],
+  "notes": "Crème de violette differs from brand to brand, and trying a new brand may slightly change the color of your cocktail.",
+  "section": "Cocktail cards",
+  "group": "Gin",
+  "lang": "en",
+  "image": "images/cocktails/aviation.svg",
+  "art": true,
+  "spirits": [
+   "Gin",
+   "Liqueurs"
+  ],
+  "order": 37,
+  "glassGroup": "Coupe"
+ },
+ {
+  "id": "bees-knees",
+  "title": "Bees Knees",
+  "kind": "drink",
+  "category": "Cocktails",
+  "subcategory": "Gin",
+  "type": "Gin",
+  "sweetTart": 0.2,
+  "flavors": [
+   "Honey",
+   "Citrus",
+   "Herbal",
+   "Refreshing"
+  ],
+  "history": "The Bees Knees is a cocktail that was created during Prohibition with ingredients that would mask poor tasting bathtub gins. The original recipe called for equal parts, but nowadays our gin is delicious, and the recipe is now tweaked to highlight the gin. \"Bees Knees\" was an expression to highlight how amazing something was, and this cocktail was a favorite during Prohibition.",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "Gin 60ml",
+     "Lemon Juice 22,5ml",
+     "Honey Syrup 22,5ml – Honey Syrup: 3 parts honey, 1 part hot water. Stir and let come to room temperature. Simple!"
+    ]
+   }
+  ],
+  "garnish": [
+   "Lemon Twist"
+  ],
+  "tools": [
+   "Shaker",
+   "Hawthorne Strainer",
+   "Jigger",
+   "Y-Peeler",
+   "Stemmed Cocktail Glass"
+  ],
+  "glass": [
+   "Stemmed Cocktail Glass"
+  ],
+  "ingredientKeys": [
+   "Gin",
+   "Honey Syrup",
+   "Lemon Juice",
+   "Lemon Twist"
+  ],
+  "steps": [
+   {
+    "text": "Place all ingredients into a shaker.",
+    "subs": []
+   },
+   {
+    "text": "Add ice to shaker and shake your drink for 8–10 seconds.",
+    "subs": []
+   },
+   {
+    "text": "Double strain into stemmed glass.",
+    "subs": []
+   },
+   {
+    "text": "Garnish with lemon twist.",
+    "subs": []
+   }
+  ],
+  "notes": "If this drink has too much honey flavor, try changing your honey syrup ratio to 2:1 or even 1:1.",
+  "section": "Cocktail cards",
+  "group": "Gin",
+  "lang": "en",
+  "image": "images/cocktails/bees-knees.svg",
+  "art": true,
+  "spirits": [
+   "Gin"
+  ],
+  "order": 38,
+  "glassGroup": "Coupe"
+ },
+ {
+  "id": "martini",
+  "title": "Martini",
+  "kind": "drink",
+  "category": "Cocktails",
+  "subcategory": "Gin",
+  "type": "Gin",
+  "sweetTart": -0.1,
+  "flavors": [
+   "Herbal",
+   "Juniper",
+   "Dry",
+   "Citrus"
+  ],
+  "history": "The Martini is the most popular cocktail in the world, and yet the perfect martini is wildly contested from one person to the next. The Martini is a variation of the Martinez that dates back to the 1860s. Classically, this cocktail would include more vermouth, 2 dashes of orange bitters, and always include gin. The modern version uses less vermouth, typically does not include orange bitters, and is garnished with a lemon twist or olives. So, experiment and find your perfect Martini!",
+  "ingredients": [
+   {
+    "name": null,
+    "items": [
+     "Gin 67,5ml",
+     "Dry Vermouth 22,5ml",
+     "Olive Juice (optional for a \"dirty\" Martini) 15ml"
+    ]
+   }
+  ],
+  "garnish": [
+   "Lemon Twist, Orange Twist or Pickled Onions"
+  ],
+  "tools": [
+   "Mixing Glass",
+   "Hawthorne Strainer",
+   "Bar Spoon",
+   "Jigger",
+   "Y-Peeler",
+   "Coupe or Martini Glass"
+  ],
+  "glass": [
+   "Coupe",
+   "Martini Glass"
+  ],
+  "ingredientKeys": [
+   "Gin",
+   "Lemon Twist",
+   "Olive Juice",
+   "Orange Twist",
+   "Pickled Onion",
+   "Vermouth"
+  ],
+  "steps": [
+   {
+    "text": "Place gin and vermouth into mixing glass.",
+    "subs": []
+   },
+   {
+    "text": "Add ice and stir for 30 seconds.",
+    "subs": []
+   },
+   {
+    "text": "Strain into coupe or martini glass.",
+    "subs": []
+   },
+   {
+    "text": "Finish with your choice of garnish.",
+    "subs": []
+   }
+  ],
+  "notes": "A \"dry\" martini refers to using less vermouth, and a \"wet\" martini refers to adding more vermouth. Try them out and find your favorite combination!",
+  "section": "Cocktail cards",
+  "group": "Gin",
+  "lang": "en",
+  "image": "images/cocktails/martini.svg",
+  "art": true,
+  "spirits": [
+   "Gin",
+   "Amaro/Aperitif"
+  ],
+  "order": 39,
+  "glassGroup": "Martini Glass"
+ }
+]

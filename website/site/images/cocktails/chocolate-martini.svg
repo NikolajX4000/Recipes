@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="chocolate-martini">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="38%" r="75%"><stop offset="0" stop-color="#efe3dc"/><stop offset="1" stop-color="#d6b9a8"/></radialGradient>
+  <linearGradient id="liq" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a3020"/><stop offset="1" stop-color="#2b140b"/></linearGradient>
+  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity=".38"/><stop offset=".22" stop-color="#fff" stop-opacity="0"/><stop offset=".85" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".15"/></linearGradient>
+</defs>
+<rect width="400" height="300" fill="url(#bg)"/>
+<ellipse cx="200" cy="262" rx="130" ry="14" fill="#000" fill-opacity=".10"/>
+
+  <clipPath id="c-martini"><path d="M100,70 L300,70 L200,178 Z"/></clipPath>
+  <path d="M200,178 L200,246" stroke="#ffffff" stroke-width="5" fill="none"/><ellipse cx="200" cy="250" rx="52" ry="8" fill="#ffffff" fill-opacity=".55" stroke="#ffffff" stroke-width="2"/>
+  <path d="M100,70 L300,70 L200,178 Z" fill="#ffffff" fill-opacity=".12"/>
+  <g clip-path="url(#c-martini)"><rect x="0" y="84" width="400" height="200" fill="url(#liq)"/><path d="M120,96 q40,18 80,0 t80,6" stroke="#b9805a" stroke-width="5" fill="none" stroke-opacity=".6"/>
+    <path d="M100,70 L300,70 L200,178 Z" fill="url(#shine)"/>
+  </g>
+  <path d="M100,70 L300,70 L200,178 Z" fill="none" stroke="#5b4636" stroke-opacity=".28" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M100,70 L300,70 L200,178 Z" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linejoin="round" stroke-opacity=".95"/>
+  <path d="M170,86 q5,-9 11,-2 q-4,6 -11,2" fill="#3b2013"/><path d="M192,81 q5,-9 11,-2 q-4,6 -11,2" fill="#3b2013"/><path d="M214,87 q5,-9 11,-2 q-4,6 -11,2" fill="#3b2013"/><path d="M234,82 q5,-9 11,-2 q-4,6 -11,2" fill="#3b2013"/><path d="M182,94 q5,-9 11,-2 q-4,6 -11,2" fill="#3b2013"/><path d="M208,92 q5,-9 11,-2 q-4,6 -11,2" fill="#3b2013"/>
+</svg>

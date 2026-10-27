@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="aviation">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="38%" r="75%"><stop offset="0" stop-color="#eeeaf6"/><stop offset="1" stop-color="#d4cdea"/></radialGradient>
+  <linearGradient id="liq" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9d4f0"/><stop offset="1" stop-color="#aaa0d6"/></linearGradient>
+  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity=".38"/><stop offset=".22" stop-color="#fff" stop-opacity="0"/><stop offset=".85" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".15"/></linearGradient>
+</defs>
+<rect width="400" height="300" fill="url(#bg)"/>
+<ellipse cx="200" cy="262" rx="130" ry="14" fill="#000" fill-opacity=".10"/>
+
+  <clipPath id="c-coupe"><path d="M96,92 C96,152 146,186 200,186 C254,186 304,152 304,92 Z"/></clipPath>
+  <path d="M200,186 L200,248" stroke="#ffffff" stroke-width="5" fill="none"/><ellipse cx="200" cy="252" rx="52" ry="8" fill="#ffffff" fill-opacity=".55" stroke="#ffffff" stroke-width="2"/>
+  <path d="M96,92 C96,152 146,186 200,186 C254,186 304,152 304,92 Z" fill="#ffffff" fill-opacity=".12"/>
+  <g clip-path="url(#c-coupe)"><rect x="0" y="106" width="400" height="200" fill="url(#liq)"/>
+    <path d="M96,92 C96,152 146,186 200,186 C254,186 304,152 304,92 Z" fill="url(#shine)"/>
+  </g>
+  <path d="M96,92 C96,152 146,186 200,186 C254,186 304,152 304,92 Z" fill="none" stroke="#5b4636" stroke-opacity=".28" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M96,92 C96,152 146,186 200,186 C254,186 304,152 304,92 Z" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linejoin="round" stroke-opacity=".95"/>
+  <g transform="translate(300,86) rotate(18)" fill="none" stroke="#f2c230" stroke-width="5" stroke-linecap="round"><path d="M0,0 C18,-14 -6,-26 14,-38 C30,-48 8,-58 26,-68"/></g><path d="M150,90 Q156,68 170,60" stroke="#4d7a2b" stroke-width="2.5" fill="none"/><circle cx="150" cy="100" r="10" fill="#b3122b"/><circle cx="146" cy="96" r="3" fill="#fff" fill-opacity=".55"/>
+</svg>

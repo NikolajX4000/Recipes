@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mine opskrifter</title>
+<style>
+:root{
+  --bg:#faf7f2; --card:#fff; --ink:#2a2420; --muted:#7a6f66; --line:#e8e0d5;
+  --accent:#b8442b; --accent-soft:#f6e4de; --chip:#efe8dd; --shadow:0 1px 3px rgba(60,40,20,.08),0 6px 18px rgba(60,40,20,.06);
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#171413; --card:#221e1c; --ink:#f0e9e1; --muted:#a39990; --line:#363029; --accent:#e8765c; --accent-soft:#3a2520; --chip:#2e2824; --shadow:none}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+h1,h2,h3,.serif{font-family:Georgia,"Iowan Old Style",serif;font-weight:600}
+header{padding:28px 16px 8px;max-width:1100px;margin:0 auto}
+header h1{margin:0 0 14px;font-size:2rem;letter-spacing:-.01em}
+.search{display:flex;gap:8px}
+.search input{flex:1;font:inherit;padding:12px 16px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);outline:none}
+.search input:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:12px}
+.chip{border:1px solid transparent;background:var(--chip);color:var(--ink);font:inherit;font-size:.88rem;padding:5px 12px;border-radius:99px;cursor:pointer}
+.chip:hover{border-color:var(--line)}
+.chip.zero{opacity:.45;cursor:default}
+.chip[aria-pressed=true]{background:var(--accent);color:#fff}
+.chip small{opacity:.65;margin-left:3px}
+select{font:inherit;font-size:.88rem;padding:5px 10px;border-radius:99px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.label{font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-right:2px}
+main{max-width:1100px;margin:0 auto;padding:8px 16px 60px}
+.count{color:var(--muted);font-size:.9rem;margin:14px 0}
+.sec{margin-bottom:34px}
+.sec-h{font-size:1.5rem;margin:22px 0 12px;border-bottom:1px solid var(--line);padding-bottom:6px}
+.sec-h small{font-size:.9rem;color:var(--muted);font-weight:400;margin-left:6px}
+.subsec{margin:0 0 22px}
+.sub-h{font:600 .78rem/1 ui-sans-serif,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.09em;color:var(--accent);margin:18px 0 10px;display:flex;align-items:center;gap:8px}
+.sub-h::before{content:"";width:18px;height:2px;background:var(--accent);border-radius:2px}
+.sub-h small{color:var(--muted);font-weight:500;letter-spacing:0}
+.tabs{display:flex;gap:2px;margin-top:14px;border-bottom:1px solid var(--line);overflow-x:auto}
+.tabs .tab{border:0;border-bottom:3px solid transparent;margin-bottom:-1px;background:none;color:var(--muted);font:inherit;font-size:1.05rem;font-weight:600;padding:10px 18px;cursor:pointer;white-space:nowrap;border-radius:8px 8px 0 0}
+.tabs .tab:hover{color:var(--ink);background:var(--chip)}
+.tabs .tab[aria-selected=true]{color:var(--accent);border-bottom-color:var(--accent)}
+.tabs .tab:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.tabs .tab small{font-weight:500;opacity:.7;margin-left:6px}
+.tabs .tab.zero{opacity:.55}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media(max-width:760px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.grid{grid-template-columns:1fr}}
+.card{background:var(--card);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);cursor:pointer;display:flex;flex-direction:column;border:1px solid var(--line);transition:transform .12s}
+.card:hover{transform:translateY(-2px)}
+.card:focus-visible{outline:2px solid var(--accent)}
+.thumb{aspect-ratio:4/3;background:var(--accent-soft);object-fit:cover;width:100%;display:block}
+.ph{aspect-ratio:4/3;display:grid;place-items:center;font-size:2.6rem;background:var(--accent-soft)}
+.card .body{padding:12px 14px 14px}
+.card h3{margin:0 0 6px;font-size:1.08rem;line-height:1.25}
+.meta{font-size:.82rem;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap}
+.cat{font-size:.7rem;text-transform:uppercase;letter-spacing:.07em;color:var(--accent);margin-bottom:2px;font-weight:600}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+button.tag{border:0;font-family:inherit;line-height:inherit;cursor:pointer}
+button.tag:hover{outline:1.5px solid var(--accent)}
+button.tag:focus-visible{outline:2px solid var(--accent)}
+.tag.spirit{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.tag{font-size:.72rem;background:var(--chip);padding:2px 8px;border-radius:99px;color:var(--muted)}
+.empty{text-align:center;color:var(--muted);padding:60px 0}
+mark{background:var(--accent-soft);color:inherit;border-radius:3px;padding:0 1px}
+/* detail */
+.detail{max-width:900px;margin:0 auto;padding:18px 16px 60px}
+.back{background:none;border:0;color:var(--accent);font:inherit;cursor:pointer;padding:6px 0;margin-bottom:10px}
+.detail h2{font-size:2.1rem;margin:0 0 8px;line-height:1.15}
+.hero.art{width:520px;max-width:100%;height:auto;aspect-ratio:4/3;max-height:none;object-fit:cover;margin-left:auto;margin-right:auto}
+.hero{width:100%;max-height:420px;object-fit:cover;border-radius:16px;margin:14px 0;display:block}
+.facts{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0 4px}
+.fact{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 14px;font-size:.9rem}
+.fact b{display:block;font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:500}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.7fr);gap:32px;margin-top:22px}
+@media(max-width:720px){.cols{grid-template-columns:1fr;gap:10px}}
+.detail h4{margin:20px 0 8px;font-family:Georgia,serif;font-size:1.15rem}
+.detail h5{margin:14px 0 4px;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+ul.ing{list-style:none;padding:0;margin:0}
+ul.ing li{padding:6px 0;border-bottom:1px dashed var(--line)}
+ol.steps{padding-left:0;list-style:none;counter-reset:s;margin:0}
+ol.steps>li{counter-increment:s;position:relative;padding:0 0 14px 40px}
+ol.steps>li::before{content:counter(s);position:absolute;left:0;top:0;width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;font-size:.85rem;font-weight:600}
+ol.sub{list-style:lower-roman;margin:6px 0 0 0;padding-left:22px;color:var(--ink)}
+ol.sub li{margin-bottom:6px}
+.sublabel{font-weight:600;font-size:.88rem;color:var(--accent)}
+.notes{background:var(--accent-soft);border-radius:12px;padding:12px 16px;margin-top:20px}
+.gauge{height:8px;border-radius:9px;background:linear-gradient(90deg,#4caf50,#b6d63a,#f0a030,#d9432b);position:relative;width:180px;margin:6px 0 2px}
+.gauge i{position:absolute;top:-4px;width:16px;height:16px;border-radius:50%;background:var(--ink);border:3px solid var(--card);transform:translateX(-50%)}
+.gl{display:flex;justify-content:space-between;width:180px;font-size:.72rem;color:var(--muted)}
+.stepper{display:inline-flex;align-items:center;gap:8px}
+.stepper button{width:26px;height:26px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit;font-size:1rem;line-height:1;cursor:pointer;padding:0}
+.stepper button:hover{border-color:var(--accent);color:var(--accent)}
+.stepper output{min-width:1.6em;text-align:center;font-weight:600}
+.fact.scaled{border-color:var(--accent)}
+.stepper .reset{width:auto;height:auto;border:0;border-radius:0;background:none;color:var(--accent);font-size:.78rem;white-space:nowrap;padding:0 0 0 6px}
+.stepper .reset:hover{border:0;text-decoration:underline}
+.hint{font-size:.8rem;color:var(--muted);margin:6px 0 0}
+.ing li.sc{color:var(--accent)}
+.hidden{display:none}
+@media print{header,.back,.noprint{display:none!important}body{background:#fff;color:#000}.detail{padding:0}}
+.lang{display:inline-flex;border:1px solid var(--line);border-radius:99px;overflow:hidden;background:var(--card)}
+.lang button{border:0;background:none;color:var(--ink);font:inherit;font-size:.82rem;font-weight:600;padding:5px 12px;cursor:pointer;letter-spacing:.04em}
+.lang button[aria-pressed=true]{background:var(--accent);color:#fff}
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:14px}
+.topbar h1{margin:0}
+.detail .lang{margin-left:auto}
+.dtop{display:flex;align-items:center}
+</style>
+</head>
+<body>
+<div id="list">
+  <header>
+    <div class="topbar"><h1 id="h1"></h1><div class="lang" role="group" aria-label="Language"><button data-lang="da">DA</button><button data-lang="en">EN</button></div></div>
+    <div class="search"><input id="q" type="search" autofocus autocomplete="off"></div>
+    <div class="tabs" id="secs" role="tablist"></div>
+    <div class="row" id="cats"></div>
+    <div class="row" id="active"></div>
+    <div class="row">
+      <span class="label" id="l-time"></span>
+      <select id="time"></select>
+      <span class="label" style="margin-left:10px" id="l-sort"></span>
+      <select id="sort"></select>
+      <button class="chip" id="clear" style="margin-left:auto"></button>
+    </div>
+  </header>
+  <main>
+    <div class="count" id="count"></div>
+    <div id="grid"></div>
+    <div class="empty hidden" id="empty"></div>
+  </main>
+</div>
+<article class="detail hidden" id="detail"></article>
+
+<script src="data.js"></script>
+<script>
+const R = window.RECIPES, TRANS = window.TRANS;
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const rich = s => esc(s).replace(/&lt;(\/?)b&gt;/g, "<$1b>");     // allow <b> from the .tex files
+const norm = s => (s||"").toLowerCase().replace(/ø/g,"o").replace(/æ/g,"ae").replace(/å/g,"a")
+  .normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+
+/* ---------- language ---------- */
+const UI = {
+  da: { title:"Mine opskrifter", search:"Søg efter navn, ingrediens, smag… (fx “kylling”, “pasta”, “citrus”)",
+    all:"Alle", maxTime:"Maks. tid", any:"Alle", sort:"Sortér", az:"A–Å", sortPdf:"Standard (PDF-rækkefølge)", sortCat:"Kategori", sortGlass:"Glas", quick:"Hurtigste først", clear:"Nulstil",
+    n1:"opskrift", nn:"opskrifter", none:"Ingen opskrifter matcher. Prøv færre eller andre ord.", back:"← Alle opskrifter",
+    prep:"Forberedelse", flavLbl:"Smag", spirit:{Whiskey:"Whisky", "Agave spirits":"Agavespiritus", "Wine/Sparkling":"Vin/Mousserende", Liqueurs:"Likører", Other:"Andet"}, portions:"Portioner", resetP:"nulstil", hintP:"Mængderne i ingredienslisten er omregnet – tider og mængder i selve fremgangsmåden er uændrede.", fewer:"Færre portioner", more:"Flere portioner", cooking:"Tilberedning", serves:"Portioner", type:"Type", base:"Base", glass:"Glas", min:"min",
+    ingredients:"Ingredienser", instructions:"Instruktioner", history:"Historie", garnish:"Pynt", tools:"Udstyr og glas",
+    notes:"Noter og tips", sweetTart:"Sød ↔ Syrlig", sweet:"Sød", tart:"Syrlig", print:"🖨 Print",
+    sec:{"Recipes":"Opskrifter","Nemlig":"Nemlig","Cocktail cards":"Cocktails"},
+    cat:{"Appetizers":"Forretter","Main dishes":"Hovedretter","Desserts":"Desserter","Sides":"Tilbehør","Drinks":"Drikke","Lunch":"Frokost","Snacks":"Snacks"} },
+  en: { title:"My recipes", search:"Search by name, ingredient, flavour… (e.g. “chicken”, “pasta”, “citrus”)",
+    all:"All", maxTime:"Max time", any:"Any", sort:"Sort", az:"A–Z", sortPdf:"Default (PDF order)", sortCat:"Category", sortGlass:"Glass", quick:"Quickest first", clear:"Clear",
+    n1:"recipe", nn:"recipes", none:"No recipes match. Try fewer or different words.", back:"← All recipes",
+    prep:"Prep", flavLbl:"Flavour", spirit:{Other:"Other"}, portions:"Servings", resetP:"reset", hintP:"Amounts in the ingredient list are scaled – times and amounts written in the instructions are unchanged.", fewer:"Fewer servings", more:"More servings", cooking:"Cooking", serves:"Serves", type:"Type", base:"Base", glass:"Glass", min:"min",
+    ingredients:"Ingredients", instructions:"Instructions", history:"History", garnish:"Garnish", tools:"Tools & glassware",
+    notes:"Notes & tips", sweetTart:"Sweet ↔ Tart", sweet:"Sweet", tart:"Tart", print:"🖨 Print",
+    sec:{"Recipes":"Recipes","Nemlig":"Nemlig","Cocktail cards":"Cocktails"},
+    cat:{} }
+};
+let lang = "da";
+try { lang = new URLSearchParams(location.search).get("lang") || localStorage.getItem("lang") || (navigator.language||"da").slice(0,2); } catch(e){}
+if (!UI[lang]) lang = "da";
+const L = () => UI[lang];
+// translate a string that belongs to recipe r
+const tx = (r, s) => (!s || r.lang === lang) ? s : (TRANS[lang][s] || s);
+const SPIRITS = ["Vodka","Gin","Whiskey","Rum","Agave spirits","Cognac/Brandy","Wine/Sparkling","Amaro/Aperitif","Liqueurs"];
+const sub = r => r.sub || r.group;
+const spiritLabel = g => (L().spirit[g] || g);
+const subLabel = r => r.section==="Recipes" ? (L().cat[r.group] || r.group) : tx(r, sub(r));
+const group = r => r.section==="Recipes" ? (L().cat[r.group] || r.group) : tx(r, r.group);
+
+/* ---------- search index (rebuilt when language changes) ---------- */
+const flatSteps = r => r.steps.flatMap(s => [s.text, ...s.subs.map(x=>x.text)]);
+function buildIndex(){
+  R.forEach(r => {
+    const T = x => tx(r, x);
+    r.total = (r.prep||0) + (r.cook||0) || null;
+    r._title = norm(T(r.title));
+    r._ing = norm([...r.ingredients.flatMap(g=>g.items), ...(r.garnish||[])].map(T).join(" | ") + " | " + (r.lang===lang ? r.ingredientKeys.join(" | ") : ""));
+    r._other = norm([group(r), T(r.type), ...(r.flavors||[]).map(T), ...(r.glass||[]).map(T), T(r.history), T(r.notes), ...flatSteps(r).map(T)].join(" | "));
+  });
+}
+
+/* ---------- portion scaling ---------- */
+const portions = {};            // recipe id -> chosen servings (only when changed)
+const FR = [[0,""],[1/8,"1/8"],[1/4,"1/4"],[1/3,"1/3"],[3/8,"3/8"],[1/2,"1/2"],[5/8,"5/8"],[2/3,"2/3"],[3/4,"3/4"],[7/8,"7/8"]];
+function fmtNum(v, asFraction, sep){
+  if (asFraction){
+    let whole = Math.floor(v + 1e-9), rem = v - whole;
+    if (rem > 0.96) { whole += 1; rem = 0; }
+    const m = FR.find(([x]) => Math.abs(x - rem) < 0.02);
+    if (m) return (whole ? String(whole) : "") + (whole && m[1] ? " " : "") + m[1] || "0";
+  }
+  return (Math.round(v*100)/100).toString().replace(".", sep);
+}
+// multiply every quantity in an ingredient line (not %, not °)
+function scaleLine(str, f){
+  if (f === 1) return str;
+  return str.replace(/(\d+)\s+(\d+)\/(\d+)|(\d+)\/(\d+)|(\d+(?:[.,]\d+)?)(?![\d%°])/g, (m, a, b, c, d, e, g, off) => {
+    if (/[%°]/.test(str[off + m.length] || "")) return m;
+    const defSep = lang==="da" ? "," : ".";
+    if (a !== undefined) return fmtNum((+a + b/c) * f, true, defSep);
+    if (d !== undefined) return fmtNum((d/e) * f, true, defSep);
+    const sep = /,/.test(g) ? "," : /\./.test(g) ? "." : defSep;
+    return fmtNum(parseFloat(g.replace(",", ".")) * f, false, sep);
+  });
+}
+
+const SECTIONS = ["Recipes","Nemlig","Cocktail cards"];
+// filter state lives per tab (search text, category chip, flavour, max time, sort)
+const TABF = Object.fromEntries(SECTIONS.map(sc => [sc, { q:"", flavor:"", cat:"All", time:0, sort:"pdf" }]));
+const state = { sec:"Recipes" };
+// changing tab starts the new tab from a clean slate (search, chip, flavour and max time are cleared)
+const setTab = sc => { if (sc === state.sec) return; state.sec = sc; Object.assign(TABF[sc], { q:"", flavor:"", cat:"All", time:0 }); };
+for (const k of ["q","flavor","cat","time","sort"]) Object.defineProperty(state, k, { get(){ return TABF[this.sec][k]; }, set(v){ TABF[this.sec][k] = v; }, enumerable:true });
+let savedTab = null; try { savedTab = localStorage.getItem("tab"); } catch(e){}
+if (SECTIONS.includes(savedTab)) state.sec = savedTab;
+// subcategory order = the order used in the PDF book
+const GROUP_ORDER = {
+  "Recipes": ["Appetizers","Main dishes","Desserts","Sides","Drinks","Lunch","Snacks"],
+  "Nemlig": ["Budgetvenlige måltider","Familievenlige måltider","Hurtige måltider","Populære måltider","Verdens måltider"],
+  "Cocktail cards": []
+};
+const orderOf = (sec, g) => { const i = GROUP_ORDER[sec].indexOf(g); return i < 0 ? 99 : i; };
+const T_ = r => x => tx(r, x);
+
+function score(r, words){
+  let sc = 0;
+  for (const w of words){
+    let s = 0;
+    if (r._title.includes(w)) s += r._title.startsWith(w) ? 12 : 8;
+    if (r._ing.includes(w)) s += 5;
+    if (r._other.includes(w)) s += 1;
+    if (!s) return 0;
+    sc += s;
+  }
+  return sc;
+}
+
+const card = r => { const T = T_(r); const nIng = r.ingredients.flatMap(g=>g.items).length; return `
+    <div class="card" tabindex="0" data-id="${r.id}">
+      ${r.image ? `<img class="thumb" loading="lazy" src="${encodeURI(r.image)}" alt="">` : `<div class="ph">${r.kind==="drink"?"🍸":"🍽️"}</div>`}
+      <div class="body"><div class="cat">${esc(group(r))}</div>
+        <h3 class="serif">${esc(T(r.title))}</h3>
+        <div class="meta">
+          ${r.prep ? `<span title="${L().prep}">⏱ ${r.prep} ${L().min}</span>` : ""}
+          ${r.cook ? `<span title="${L().cooking}">🔥 ${r.cook} ${L().min}</span>` : ""}
+          ${r.servings ? `<span title="${L().serves}">👤 ${r.servings}</span>` : ""}
+          <span title="${L().ingredients}">${r.kind==="drink"?"🧪":"🥕"} ${nIng}</span>
+        </div>
+        ${r.type && r.kind!=="drink" && r.section!=="Nemlig" ? `<div class="tags"><span class="tag">${esc(T(r.type))}</span></div>` : ""}
+        ${(r.spirits||[]).length ? `<div class="tags">${r.spirits.map(g=>`<button type="button" class="tag spirit" data-spirit="${esc(g)}">${esc(spiritLabel(g))}</button>`).join("")}</div>` : ""}
+        ${(r.flavors||[]).length ? `<div class="tags">${r.flavors.map(f=>`<button type="button" class="tag" data-flavor="${esc(f)}">${esc(T(f))}</button>`).join("")}</div>` : ""}
+      </div></div>`; };
+
+function renderChrome(){
+  document.documentElement.lang = lang;
+  $("#h1").textContent = "🍳 " + L().title;
+  document.title = L().title;
+  $("#q").placeholder = L().search;
+  $("#l-time").textContent = L().maxTime; $("#l-sort").textContent = L().sort;
+  $("#time").innerHTML = [[0,L().any],[15,"≤ 15 min"],[30,"≤ 30 min"],[45,"≤ 45 min"],[60,"≤ 60 min"]].map(([v,t])=>`<option value="${v}">${t}</option>`).join("");
+  $("#time").value = state.time;
+  $("#clear").textContent = L().clear; $("#empty").textContent = L().none;
+  document.querySelectorAll(".lang button").forEach(b => b.setAttribute("aria-pressed", b.dataset.lang===lang));
+}
+
+function render(){
+  if ($("#q").value !== state.q) $("#q").value = state.q;
+  { const opts = [["pdf",L().sortPdf],["az",L().az],["cat",L().sortCat], state.sec==="Cocktail cards" ? ["glass",L().sortGlass] : ["time",L().quick]];
+    $("#sort").innerHTML = opts.map(([v,t])=>`<option value="${v}">${esc(t)}</option>`).join(""); $("#sort").value = state.sort; }
+  $("#time").value = state.time;
+  { const noTime = state.sec==="Cocktail cards"; $("#l-time").classList.toggle("hidden", noTime); $("#time").classList.toggle("hidden", noTime); }
+  const words = norm(state.q).split(/\s+/).filter(Boolean);
+  const secCount = sc => R.filter(r => r.section===sc).length;   // tab counts ignore every filter
+  const base = R.filter(r => r.section===state.sec && (!state.time || (r.total && r.total<=state.time)));
+  let rows = base.filter(r => !state.flavor || (r.flavors||[]).includes(state.flavor))
+              .filter(r => state.cat==="All" || (r.section==="Cocktail cards" ? (state.cat==="Other" ? !(r.spirits||[]).length : (r.spirits||[]).includes(state.cat)) : sub(r)===state.cat))
+              .map(r => ({r, s: words.length ? score(r, words) : 1})).filter(x => x.s);
+  const title = x => tx(x.r, x.r.title);
+  const byTitle = (a,b) => title(a).localeCompare(title(b),lang);
+  const catKey = x => x.r.section==="Cocktail cards"
+    ? (() => { const i = SPIRITS.findIndex(g => (x.r.spirits||[]).includes(g)); return i<0 ? 99 : i; })()   // first spirit in chip order
+    : orderOf(state.sec, sub(x.r));
+  const glassKey = x => x.r.glassGroup ? tx(x.r, x.r.glassGroup) : "\uffff";
+  const cmp = (a,b) => {
+    if (words.length && state.sort==="pdf") return b.s-a.s || byTitle(a,b);        // searching: best match first
+    switch (state.sort) {
+      case "az": return byTitle(a,b);
+      case "time": return (a.r.total??999)-(b.r.total??999) || byTitle(a,b);
+      case "cat": return catKey(a)-catKey(b) || byTitle(a,b);
+      case "glass": return glassKey(a).localeCompare(glassKey(b),lang) || byTitle(a,b);
+      default: return (a.r.order??99999)-(b.r.order??99999) || byTitle(a,b);
+    }
+  };
+  rows.sort(cmp);
+
+  $("#secs").innerHTML = SECTIONS.map(sec => {
+    const n = secCount(sec);
+    return `<button class="tab${n?"":" zero"}" role="tab" data-sec="${esc(sec)}" aria-selected="${state.sec===sec}">${esc(L().sec[sec])}<small>${n}</small></button>`;
+  }).join("");
+  {
+    const inSec = R.filter(r=>r.section===state.sec);
+    let chipList;
+    if (state.sec==="Cocktail cards") {
+      const sp = r => r.spirits && r.spirits.length ? r.spirits : ["Other"];
+      const gs = [...SPIRITS, ...(inSec.some(r=>!(r.spirits||[]).length) ? ["Other"] : [])];
+      chipList = [{g:"All",label:L().all,n:inSec.length}, ...gs.map(g=>({g,label:spiritLabel(g),n:inSec.filter(r=>sp(r).includes(g)).length}))];
+    } else {
+      const groups = [...new Set(inSec.map(sub))].map(g=>({g, label:subLabel(inSec.find(r=>sub(r)===g))})).sort((a,b)=>orderOf(state.sec,a.g)-orderOf(state.sec,b.g) || a.label.localeCompare(b.label,lang));
+      chipList = [{g:"All",label:L().all},...groups].map(o=>({...o, n:inSec.filter(r=>o.g==="All"||sub(r)===o.g).length}));
+    }
+    $("#cats").innerHTML = chipList.map(({g,label,n}) =>
+      `<button class="chip${n?"":" zero"}" data-cat="${esc(g)}" aria-pressed="${state.cat===g}"${n?"":" disabled"}>${esc(label)}<small>${n}</small></button>`).join("");
+  }
+  const fr = state.flavor && R.find(r => (r.flavors||[]).includes(state.flavor));
+  $("#active").innerHTML = state.flavor ? `<span class="label">${esc(L().flavLbl)}</span><button class="chip" aria-pressed="true" data-clearflavor title="${esc(L().clear)}">${esc(fr ? tx(fr, state.flavor) : state.flavor)} ✕</button>` : "";
+  $("#count").textContent = `${rows.length} ${rows.length===1?L().n1:L().nn}`;
+  $("#empty").classList.toggle("hidden", rows.length>0);
+  const sorted = rows;
+  $("#grid").innerHTML = `<div class="grid">${sorted.map(x=>card(x.r)).join("")}</div>`;
+  try { localStorage.setItem("tab", state.sec); } catch(e){}
+}
+
+function showDetail(id, keepScroll){
+  const r = R.find(x=>x.id===id); if(!r) return showList();
+  const T = T_(r), l = L();
+  const n = (r.servings && portions[id]) || r.servings, f = r.servings ? n / r.servings : 1;
+  const ing = r.ingredients.map(g => `${g.name?`<h5>${esc(T(g.name))}</h5>`:""}<ul class="ing">${g.items.map(i=>`<li${f!==1?' class="sc"':""}>${rich(scaleLine(T(i), f))}</li>`).join("")}</ul>`).join("");
+  const steps = r.steps.map(s => `<li>${rich(T(s.text))}${s.subs.length ? `<ol class="sub">${s.subs.map(x=>`<li>${x.label?`<span class="sublabel">${esc(T(x.label))}: </span>`:""}${rich(T(x.text))}</li>`).join("")}</ol>`:""}</li>`).join("");
+  const facts = [
+    r.prep && [l.prep, r.prep+" "+l.min], r.cook && [l.cooking, r.cook+" "+l.min+(r.temp?` · ${r.temp}°`:"")],
+    r.type && r.section!=="Nemlig" && [r.kind==="drink"?l.base:l.type, T(r.type)],
+    r.glass?.length && [l.glass, r.glass.map(T).join(", ")]
+  ].filter(Boolean).map(([k,v])=>`<div class="fact"><b>${esc(k)}</b>${esc(v)}</div>`).join("");
+  const stepper = r.servings ? `<div class="fact${f!==1?" scaled":""}"><b>${l.portions}</b><span class="stepper"><button data-p="-1" aria-label="${l.fewer}">−</button><output>${n}</output><button data-p="1" aria-label="${l.more}">+</button>${f!==1?`<button class="reset" data-p="0">↺ ${l.resetP} (${r.servings})</button>`:""}</span></div>` : "";
+  const gauge = r.sweetTart==null ? "" : `<h5>${l.sweetTart}</h5><div class="gauge"><i style="left:${(r.sweetTart+1)/2*100}%"></i></div><div class="gl"><span>${l.sweet}</span><span>${l.tart}</span></div>`;
+  $("#detail").innerHTML = `
+    <div class="dtop"><button class="back" id="back">${l.back}</button>
+      <div class="lang" role="group"><button data-lang="da" aria-pressed="${lang==="da"}">DA</button><button data-lang="en" aria-pressed="${lang==="en"}">EN</button></div></div>
+    <h2 class="serif">${esc(T(r.title))}</h2>
+    <div class="meta"><span class="tag">${esc(l.sec[r.section])}</span> <span class="tag">${esc(group(r))}</span> ${(r.spirits||[]).map(g=>`<button type="button" class="tag spirit" data-spirit="${esc(g)}">${esc(spiritLabel(g))}</button>`).join(" ")} ${(r.flavors||[]).map(f=>`<button type="button" class="tag" data-flavor="${esc(f)}">${esc(T(f))}</button>`).join(" ")}</div>
+    ${r.image?`<img class="hero${r.art?" art":""}" src="${encodeURI(r.image)}" alt="">`:""}
+    <div class="facts">${stepper}${facts}</div>${f!==1?`<p class="hint">${l.hintP}</p>`:""}${gauge}
+    ${r.history?`<h4>${l.history}</h4><p>${esc(T(r.history))}</p>`:""}
+    <div class="cols">
+      <section><h4 style="margin-top:0">${l.ingredients}</h4>${ing}
+        ${r.garnish?.length?`<h5>${l.garnish}</h5><ul class="ing">${r.garnish.map(i=>`<li>${esc(T(i))}</li>`).join("")}</ul>`:""}
+        ${r.tools?.length?`<h5>${l.tools}</h5><ul class="ing">${r.tools.map(i=>`<li>${esc(T(i))}</li>`).join("")}</ul>`:""}</section>
+      <section><h4 style="margin-top:0">${l.instructions}</h4>${steps?`<ol class="steps">${steps}</ol>`:"<p>—</p>"}
+        ${r.notes?`<div class="notes"><b>${l.notes}:</b> ${rich(T(r.notes))}</div>`:""}</section>
+    </div>
+    <p class="noprint"><button class="chip" onclick="print()">${l.print}</button></p>`;
+  $("#list").classList.add("hidden"); $("#detail").classList.remove("hidden");
+  document.title = T(r.title) + " – " + l.title; if(!keepScroll) scrollTo(0,0);
+}
+function showList(){
+  $("#detail").classList.add("hidden"); $("#list").classList.remove("hidden"); document.title = L().title;
+}
+function route(){ const m = location.hash.match(/^#\/(.+)$/); m ? showDetail(decodeURIComponent(m[1])) : showList(); }
+
+function setLang(l){
+  lang = l; try { localStorage.setItem("lang", l); } catch(e){}
+  buildIndex(); renderChrome(); render(); route();
+}
+document.addEventListener("click", e => { const b = e.target.closest(".lang button"); if (b) setLang(b.dataset.lang); });
+$("#q").addEventListener("input", e => { state.q = e.target.value; render(); });
+$("#time").addEventListener("change", e => { state.time = +e.target.value; render(); });
+$("#sort").addEventListener("change", e => { state.sort = e.target.value; render(); });
+$("#clear").addEventListener("click", () => { state.q=""; state.flavor=""; state.cat="All"; state.time=0; $("#q").value=""; $("#time").value=0; render(); });
+$("#secs").addEventListener("click", e => { const b=e.target.closest("[data-sec]"); if(b){setTab(b.dataset.sec); render();} });
+$("#cats").addEventListener("click", e => { const b=e.target.closest("[data-cat]"); if(b){state.cat=b.dataset.cat; render();} });
+const applyTag = el => {
+  setTab("Cocktail cards");
+  if (el.dataset.flavor !== undefined) state.flavor = state.flavor === el.dataset.flavor ? "" : el.dataset.flavor;
+  else state.cat = el.dataset.spirit;
+  render(); scrollTo({top:0});
+};
+$("#active").addEventListener("click", e => { if (e.target.closest("[data-clearflavor]")) { state.flavor = ""; render(); } });
+const open = e => { const tg=e.target.closest(".tag[data-flavor], .tag[data-spirit]"); if (tg) { if (e.type==="click") applyTag(tg); return; }
+  const c=e.target.closest(".card"); if(c) location.hash = "#/"+c.dataset.id; };
+$("#grid").addEventListener("click", open);
+$("#grid").addEventListener("keydown", e => { if(e.key==="Enter") open(e); });
+$("#detail").addEventListener("click", e => {
+  const tg = e.target.closest(".tag[data-flavor], .tag[data-spirit]");
+  if (tg) { applyTag(tg); location.hash = ""; return; }
+  const pb = e.target.closest("[data-p]");
+  if (pb) {
+    const id = decodeURIComponent(location.hash.slice(2)), r = R.find(x=>x.id===id), d = +pb.dataset.p;
+    if (d === 0) delete portions[id];
+    else { const cur = portions[id] || r.servings, nv = Math.min(99, Math.max(1, cur + d)); if (nv === r.servings) delete portions[id]; else portions[id] = nv; }
+    showDetail(id, true); return;
+  } if(e.target.id==="back") { history.length>1 ? history.back() : (location.hash=""); } });
+addEventListener("hashchange", route);
+addEventListener("keydown", e => { if(e.key==="/" && document.activeElement.tagName!=="INPUT"){ e.preventDefault(); $("#q").focus(); } });
+buildIndex(); renderChrome(); render(); route();
+</script>
+</body>
+</html>

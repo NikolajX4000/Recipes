@@ -329,3 +329,36 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+# macOS / editor
+.DS_Store
+.vscode/
+
+# Python (site build script)
+__pycache__/
+*.pyc
+
+# LaTeX build files
+*.aux
+*.log
+*.toc
+*.out
+*.idx
+*.ilg
+*.ind
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# build output: keep only the finished book
+out/*
+!out/recipes.pdf
+
+# old backups from the unit clean-up
+_backup-before-unit-fix/
+
+# third-party recipe PDFs (not ours to publish)
+nemlig/*.pdf
+
+# NOTE: website/site/ is NOT ignored - it is what GitHub Pages publishes
